@@ -2663,7 +2663,7 @@
     (pin "3" (uuid 19c51960-e800-41ab-b78f-c3af420b4598))
     (pin "4" (uuid 2527c274-99aa-4c85-b1ed-6e76e51dc3c8))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "Y2") (unit 1)
         )
@@ -2689,7 +2689,7 @@
     (pin "2" (uuid defe5d05-e357-4c93-b120-e5e9519fb5ba))
     (pin "1" (uuid 6eb286bf-e1d5-44c4-8a3a-4fa5f7b7f0ff))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R52") (unit 1)
         )
@@ -2714,7 +2714,7 @@
     )
     (pin "1" (uuid 5f250304-57a9-425c-8407-7581f1a69ceb))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR041") (unit 1)
         )
@@ -2740,7 +2740,7 @@
     (pin "1" (uuid b687c5b9-52a5-4cf2-8aa9-2644e9849310))
     (pin "2" (uuid 6cb3595a-47ef-47e7-abdb-edf8ca031cd9))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R86") (unit 1)
         )
@@ -2766,7 +2766,7 @@
     (pin "2" (uuid 5290df5c-baa3-4cd8-8ecc-ef95117e5b90))
     (pin "1" (uuid 6138b8fe-ccfb-4d3e-aa0d-7d38a5003356))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R46") (unit 1)
         )
@@ -2792,7 +2792,7 @@
     (pin "1" (uuid 3f843316-0edb-4dee-ae05-3d9aca1a5324))
     (pin "2" (uuid 4d863463-e22b-428e-b8d3-540af28327ae))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C57") (unit 1)
         )
@@ -2818,7 +2818,7 @@
     (pin "2" (uuid 5d59bebe-832d-46fe-857d-ab81e06e8d65))
     (pin "1" (uuid a1a53dcb-6ce1-408a-b0b4-df03fb44d214))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R43") (unit 1)
         )
@@ -2844,7 +2844,7 @@
     (pin "1" (uuid fc2837f2-243d-440a-80d1-beeb279822fc))
     (pin "2" (uuid 2698a4eb-27ce-4c52-96f5-81d7cd7e0243))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C78") (unit 1)
         )
@@ -2870,7 +2870,7 @@
     (pin "1" (uuid 1038b3a4-917b-4cee-88ef-cd552ec5a84b))
     (pin "2" (uuid 4a04ba8b-1acb-4f0d-b811-298703450607))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R39") (unit 1)
         )
@@ -2896,7 +2896,7 @@
     (pin "2" (uuid 5ae44028-7dce-4c4a-b1da-9cc8f8fbda80))
     (pin "1" (uuid fb42ecf5-3d80-474a-a633-d31022291aee))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R42") (unit 1)
         )
@@ -2935,7 +2935,7 @@
     (pin "11" (uuid fa5b1e16-c7ca-4849-9907-6436d109d7d2))
     (pin "P7" (uuid 3a0dc1a5-a541-4cf5-ae18-2e11db4eb434))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "J10") (unit 1)
         )
@@ -2961,7 +2961,7 @@
     (pin "1" (uuid a9126eb0-271c-42bb-a85a-edfe13f7f8c1))
     (pin "2" (uuid 32c1eab4-6a96-41c0-9b25-f6e04c9f7af1))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C53") (unit 1)
         )
@@ -2986,7 +2986,7 @@
     )
     (pin "1" (uuid 4cc8afda-ec7e-4524-8862-12b43cdcf8ed))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR068") (unit 1)
         )
@@ -3011,7 +3011,7 @@
     )
     (pin "1" (uuid 6c2871c5-0bdd-4e85-a179-6232f2469d09))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR043") (unit 1)
         )
@@ -3036,7 +3036,7 @@
     )
     (pin "1" (uuid 18e0ed2b-469f-4d00-9969-36b257db1802))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR047") (unit 1)
         )
@@ -3062,7 +3062,7 @@
     (pin "2" (uuid 3557329c-707e-474b-b75c-1e0de5d7b90f))
     (pin "1" (uuid e9e9fb44-1cf6-4d7f-9d92-d717f81d0cef))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R41") (unit 1)
         )
@@ -3088,7 +3088,7 @@
     (pin "2" (uuid 628587d3-5a4c-45c7-a6ee-fe140328eb40))
     (pin "1" (uuid bd40d7f6-d566-4dbf-b2c1-fe507b5912f6))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R44") (unit 1)
         )
@@ -3113,7 +3113,7 @@
     )
     (pin "1" (uuid c2238da1-b0d2-41bc-9f93-b67ec5b5c7fd))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR048") (unit 1)
         )
@@ -3139,7 +3139,7 @@
     (pin "1" (uuid 51281139-d985-45f0-8279-51cdc83e4901))
     (pin "2" (uuid dd0292a7-d23b-4179-82f0-d3f31661b8bb))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R91") (unit 1)
         )
@@ -3165,7 +3165,7 @@
     (pin "1" (uuid d9cf2dbb-7dbc-4556-b990-75c95f4385d8))
     (pin "2" (uuid 075d6ca5-9535-4428-ae76-384f1d0f3362))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R87") (unit 1)
         )
@@ -3191,7 +3191,7 @@
     (pin "1" (uuid 2ae5ceaf-36b7-4f1b-94b7-488993149264))
     (pin "2" (uuid 8dda16d4-acfd-4e93-b8cd-f53f65db85ad))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R85") (unit 1)
         )
@@ -3217,7 +3217,7 @@
     (pin "1" (uuid cf27b58b-9532-43e2-b719-e25d6f66c5a5))
     (pin "2" (uuid 2afce08c-64be-4ac8-8832-c987b95678ec))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R75") (unit 1)
         )
@@ -3243,7 +3243,7 @@
     (pin "1" (uuid beb99dfe-87ad-4752-ab80-ed61ad2cee9a))
     (pin "2" (uuid 29e3f569-0128-4ba0-8c85-93dc0e06fd9d))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C48") (unit 1)
         )
@@ -3269,7 +3269,7 @@
     (pin "1" (uuid d8c24b5a-78f8-4d3e-b6b4-4fa2d80a120b))
     (pin "2" (uuid 0758e22d-2350-4794-a01c-df0f83455418))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R71") (unit 1)
         )
@@ -3295,7 +3295,7 @@
     (pin "2" (uuid 583e0a4e-adc5-481b-8725-f25e75f9464e))
     (pin "1" (uuid 4fa27848-646c-4437-af4b-809bac7ae3a5))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R50") (unit 1)
         )
@@ -3321,7 +3321,7 @@
     (pin "1" (uuid e2d1cbfc-ffd0-4a8d-b780-dbe5829c6bf7))
     (pin "2" (uuid bb4d5a3f-6926-44a9-b194-44f4c75613f5))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C51") (unit 1)
         )
@@ -3347,7 +3347,7 @@
     (pin "1" (uuid daf85647-bbe9-4fc2-ae3d-692474826623))
     (pin "2" (uuid 770812b7-d095-4eb4-b8d9-fbfe39752cbb))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R70") (unit 1)
         )
@@ -3373,7 +3373,7 @@
     (pin "1" (uuid 0c1f3361-b69a-480c-a657-65aec97be35b))
     (pin "2" (uuid 8e8c4fe4-3bda-489c-88f7-897de2708c49))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C52") (unit 1)
         )
@@ -3398,7 +3398,7 @@
     )
     (pin "1" (uuid 38dd715f-fe45-4b84-8b91-d350a5e37699))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR046") (unit 1)
         )
@@ -3423,7 +3423,7 @@
     )
     (pin "1" (uuid 91ebd029-8152-413b-9725-d25eeee6c752))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR051") (unit 1)
         )
@@ -3449,7 +3449,7 @@
     (pin "1" (uuid 010fac90-686f-423a-914e-0b082f8dd605))
     (pin "2" (uuid 067b10f4-24dd-4e29-afa2-c2615324e91c))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R83") (unit 1)
         )
@@ -3474,7 +3474,7 @@
     )
     (pin "1" (uuid f11addc7-2b70-4095-aa0b-2e7441c65d02))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR045") (unit 1)
         )
@@ -3500,7 +3500,7 @@
     (pin "1" (uuid 72bae9e4-40a3-4e13-810c-6624a530fc22))
     (pin "2" (uuid 9b54b14d-cb81-4bb3-a44b-c297bf449060))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R84") (unit 1)
         )
@@ -3526,7 +3526,7 @@
     (pin "1" (uuid 6547f79a-bd95-42ca-a765-d9ae75cd2f7b))
     (pin "2" (uuid 0f92cfc4-98a2-4337-b498-510e2eee5f89))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C59") (unit 1)
         )
@@ -3552,7 +3552,7 @@
     (pin "2" (uuid 8ff0b96f-442b-4a3b-baf5-7d0f78537084))
     (pin "1" (uuid be8c9af3-d0aa-4fd4-882a-91f8a7982206))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R54") (unit 1)
         )
@@ -3578,7 +3578,7 @@
     (pin "2" (uuid 51fc4d75-c455-4508-abee-c5c7d818ffc0))
     (pin "1" (uuid ae2b00ef-3ad6-4052-9c66-f981dcb16cb8))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R49") (unit 1)
         )
@@ -3603,7 +3603,7 @@
     )
     (pin "1" (uuid 57ab2990-4b7f-4d81-9f20-94db42f33472))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR067") (unit 1)
         )
@@ -3628,7 +3628,7 @@
     )
     (pin "1" (uuid 0bf49a68-0889-47df-916d-92c80d7db779))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR057") (unit 1)
         )
@@ -3654,7 +3654,7 @@
     (pin "1" (uuid 6ba40c3c-a959-4a2b-b420-3ee86db2893e))
     (pin "2" (uuid 6e92b71b-682b-4f52-aa5a-77424136678d))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C79") (unit 1)
         )
@@ -3680,7 +3680,7 @@
     (pin "1" (uuid 639e27da-45ed-4605-8d4c-c34beace8185))
     (pin "2" (uuid 7e7f1d12-6017-44d9-b808-db3351a9f62d))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C60") (unit 1)
         )
@@ -3705,7 +3705,7 @@
     )
     (pin "1" (uuid 0ef58558-4a21-4a72-9033-ec78e5dcda11))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR044") (unit 1)
         )
@@ -3731,7 +3731,7 @@
     (pin "1" (uuid 52743111-801a-4627-b9c6-4610719cafcc))
     (pin "2" (uuid f0685faa-fd21-4a8b-8991-45a3a4f089f3))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C55") (unit 1)
         )
@@ -3757,7 +3757,7 @@
     (pin "2" (uuid 01d698ea-69a1-4d94-8b91-46ab4a300936))
     (pin "1" (uuid e14b6f31-87ce-44c5-bd43-d026204353c5))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R53") (unit 1)
         )
@@ -3783,7 +3783,7 @@
     (pin "2" (uuid 222b0cb7-e7b0-4923-9eac-0e8edf32ee5b))
     (pin "1" (uuid a087798a-0122-4ade-a32f-50289f1f5810))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R62") (unit 1)
         )
@@ -3809,7 +3809,7 @@
     (pin "1" (uuid 6b62886d-f550-4776-a295-5f567ad9de6e))
     (pin "2" (uuid 8d53b0a0-ccbd-44b7-b14a-f71929f20b90))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C47") (unit 1)
         )
@@ -3835,7 +3835,7 @@
     (pin "1" (uuid 78b7787a-3d7b-434b-a021-ae8488f2a106))
     (pin "2" (uuid 0662a951-193f-4926-b6c3-4c02914b5ce7))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C66") (unit 1)
         )
@@ -3861,7 +3861,7 @@
     (pin "1" (uuid f61d35a8-830a-4520-b537-4e1ef5a15001))
     (pin "2" (uuid 9cdb4726-e18b-46bf-aae5-a587d69bf69a))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C67") (unit 1)
         )
@@ -3887,7 +3887,7 @@
     (pin "1" (uuid 5392b236-2f1b-4351-9271-95e134723b52))
     (pin "2" (uuid 8f00c8f6-8ed3-431d-8264-19bc503f6c0f))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R74") (unit 1)
         )
@@ -3913,7 +3913,7 @@
     (pin "2" (uuid 5266905e-1e5e-454c-b075-60dc601220c8))
     (pin "1" (uuid ec70e295-bc65-4e57-9da4-633e97b9343c))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R47") (unit 1)
         )
@@ -3939,7 +3939,7 @@
     (pin "1" (uuid f03276ba-3473-4166-8b2e-8e8b453dbd14))
     (pin "2" (uuid f5c58724-4a34-4553-b010-f770af42ebcd))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R72") (unit 1)
         )
@@ -3965,7 +3965,7 @@
     (pin "1" (uuid 432e8165-57f2-4b20-ac0d-74a4d607d12f))
     (pin "2" (uuid 97c80f9b-db4b-429e-8c78-279538f40a06))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R73") (unit 1)
         )
@@ -3991,7 +3991,7 @@
     (pin "2" (uuid 4bf4fbeb-dba3-46aa-a84e-2f9b75d67b62))
     (pin "1" (uuid 94db64d4-a771-4f38-817e-1b7c0e44174f))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R48") (unit 1)
         )
@@ -4016,7 +4016,7 @@
     )
     (pin "1" (uuid 6e2a22e4-767e-46fb-9483-b9bbed660cad))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "#PWR042") (unit 1)
         )
@@ -4042,7 +4042,7 @@
     (pin "2" (uuid 798faffb-8953-461b-8044-5b3a950942e5))
     (pin "1" (uuid f146bdd3-cab8-4cc2-8306-0bda64751aa1))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R40") (unit 1)
         )
@@ -4107,7 +4107,7 @@
     (pin "9" (uuid 11917a20-98eb-4bfc-aa8c-64d940e85e7d))
     (pin "37" (uuid 8b581eb8-0ce8-4b5f-8d6a-a2c6b8267139))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "U1") (unit 1)
         )
@@ -4133,7 +4133,7 @@
     (pin "1" (uuid ce547e05-a1f0-420b-b350-b9d4e5c1a67e))
     (pin "2" (uuid 4931260c-b467-40b1-9113-5a239680db24))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R38") (unit 1)
         )
@@ -4159,7 +4159,7 @@
     (pin "1" (uuid 62b41bfb-de5f-4e28-9f15-29de9d33b6ec))
     (pin "2" (uuid 4bc9f9e9-128c-4d4d-8f3f-e6845f29e8f6))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "C58") (unit 1)
         )
@@ -4185,7 +4185,7 @@
     (pin "2" (uuid 94a95bde-afde-455c-8747-f74fbb54bdba))
     (pin "1" (uuid add63a12-fb60-455b-93e0-c27a943c53e6))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R45") (unit 1)
         )
@@ -4211,7 +4211,7 @@
     (pin "2" (uuid e8a8e204-2ac8-4495-bbca-9a19c6e43fc3))
     (pin "1" (uuid 41a89680-150d-4b03-9d8e-fa64cfeed36a))
     (instances
-      (project "h7p20_discovery"
+      (project "dalishen_pi_h7p20"
         (path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/68d888d9-8902-4de5-b39b-ba860add9831"
           (reference "R51") (unit 1)
         )
