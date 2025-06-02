@@ -39,5 +39,12 @@
 * 用于连接OV5640 MIPI摄像头，规格`*-23AF`20元左右 [购买连接](https://item.taobao.com/item.htm?id=816198271497)
 * 注意：MIPI接口当前仅预留，需后续开发支持
 
-# 五、例程
+
+# 五、硬件
+* `TODO`
+
+# 六、例程
 * [详细说明](https://github.com/vllogic/dalishen_pi_h7p20/tree/main/examples)
+
+# 七、交流群
+* QQ群：635683631
