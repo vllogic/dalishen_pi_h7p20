@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AgateProject version="3.2">
+    <name>usb_cdc_core</name>
+    <device>H7P20N0V324-M0X1C7</device>
+    <topModule>usb_cdc_core</topModule>
+    <MonitorSignal>Default|Default</MonitorSignal>
+    <command-args toolName="bg">
+        <argument name="fcfg">1</argument>
+    </command-args>
+    <files>
+        <file>$(PRJ_DIR)/usb_cdc_core.v</file>
+        <file>$(PRJ_DIR)/usb_desc_rom.v</file>
+        <file>$(PRJ_DIR)/usbf_crc16.v</file>
+        <file>$(PRJ_DIR)/usbf_defs.v</file>
+        <file>$(PRJ_DIR)/usbf_device_core.v</file>
+        <file>$(PRJ_DIR)/usbf_sie_rx.v</file>
+        <file>$(PRJ_DIR)/usbf_sie_tx.v</file>
+        <file>$(PRJ_DIR)/usb_sniffer.aoc</file>
+    </files>
+</AgateProject>
