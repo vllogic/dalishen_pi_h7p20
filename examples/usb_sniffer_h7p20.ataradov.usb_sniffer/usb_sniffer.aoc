@@ -9,6 +9,10 @@
 		<IO signal_name="cmp_dp_i_2_" pad_name="io25_dmux9_clk2" location="IO25_GCLK_2" pin_no="106" inst_name="io_cmp_dp_i_2__inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="ctrl_clk_i" pad_name="C38R81_PAD" location="IO11_8" pin_no="4" inst_name="io_ctrl_clk_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="ctrl_data_i" pad_name="C31R81_PAD" location="IO18_8" pin_no="9" inst_name="io_ctrl_data_i_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="dbg_o_0_" pad_name="" location="" pin_no="" inst_name="io_dbg_o_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dbg_o_1_" pad_name="" location="" pin_no="" inst_name="io_dbg_o_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dbg_o_2_" pad_name="" location="" pin_no="" inst_name="io_dbg_o_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="dbg_o_3_" pad_name="" location="" pin_no="" inst_name="io_dbg_o_3__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_0_" pad_name="C28R81_PAD" location="IO21_8" pin_no="13" inst_name="io_fd_o_0__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_1_" pad_name="C27R81_PAD" location="IO22_8" pin_no="14" inst_name="io_fd_o_1__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_2_" pad_name="C24R81_PAD" location="IO1_7" pin_no="15" inst_name="io_fd_o_2__inst" direction="output" operation_mode="normal"/>
@@ -25,11 +29,24 @@
 		<IO signal_name="fd_o_13_" pad_name="C23R0_PAD" location="IO23_4" pin_no="80" inst_name="io_fd_o_13__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_14_" pad_name="C24R0_PAD" location="IO24_4" pin_no="81" inst_name="io_fd_o_14__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_15_" pad_name="C27R0_PAD" location="IO3_3" pin_no="82" inst_name="io_fd_o_15__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="fifoaddr_o_0_" pad_name="C30R81_PAD" location="IO19_8" pin_no="10" inst_name="io_fifoaddr_o_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="fifoaddr_o_1_" pad_name="C29R81_PAD" location="IO20_8" pin_no="11" inst_name="io_fifoaddr_o_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="flaga_i" pad_name="C13R81_PAD" location="IO12_GCLK_7" pin_no="22" inst_name="io_flaga_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="flagb_i" pad_name="C12R81_PAD" location="IO13_PCLK_7" pin_no="23" inst_name="io_flagb_i_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="flagc_i" pad_name="C10R81_PAD" location="IO15_7" pin_no="24" inst_name="io_flagc_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="ifclk_i" pad_name="C37R81_PAD" location="IO12_GCLK_8" pin_no="5" inst_name="io_ifclk_i_inst" direction="input" operation_mode="clock"/>
 		<IO signal_name="jtagen_i" pad_name="C32R81_PAD" location="IO17_8" pin_no="8" inst_name="io_jtagen_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="pktend_o" pad_name="C10R0_PAD" location="IO10_4" pin_no="72" inst_name="io_pktend_o_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="sloe_o" pad_name="C9R81_PAD" location="IO16_7" pin_no="25" inst_name="io_sloe_o_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="slrd_o" pad_name="C46R81_PAD" location="IO3_8" pin_no="126" inst_name="io_slrd_o_inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="slwr_o" pad_name="C45R81_PAD" location="IO4_8" pin_no="127" inst_name="io_slwr_o_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_0_" pad_name="" location="" pin_no="" inst_name="io_spare_o_0__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_1_" pad_name="" location="" pin_no="" inst_name="io_spare_o_1__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_2_" pad_name="" location="" pin_no="" inst_name="io_spare_o_2__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_3_" pad_name="" location="" pin_no="" inst_name="io_spare_o_3__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_4_" pad_name="" location="" pin_no="" inst_name="io_spare_o_4__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_5_" pad_name="" location="" pin_no="" inst_name="io_spare_o_5__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="spare_o_6_" pad_name="" location="" pin_no="" inst_name="io_spare_o_6__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="t_usb_clk_i" pad_name="C37R0_PAD" location="IO13_GCLK_3" pin_no="92" inst_name="io_t_usb_clk_i_inst" direction="input" operation_mode="clock"/>
 		<IO signal_name="t_usb_d_io_0_" pad_name="C42R0_PAD" location="IO18_3" pin_no="94" inst_name="io_t_usb_d_io_0__inst" direction="inout" operation_mode="normal"/>
 		<IO signal_name="t_usb_d_io_1_" pad_name="C44R0_PAD" location="IO20_3" pin_no="96" inst_name="io_t_usb_d_io_1__inst" direction="inout" operation_mode="normal"/>
@@ -42,6 +59,7 @@
 		<IO signal_name="t_usb_dir_i" pad_name="C47R0_PAD" location="IO23_3" pin_no="98" inst_name="io_t_usb_dir_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="t_usb_nxt_i" pad_name="C41R0_PAD" location="IO17_3" pin_no="93" inst_name="io_t_usb_nxt_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="t_usb_stp_o" pad_name="C48R0_PAD" location="IO24_3" pin_no="99" inst_name="io_t_usb_stp_o_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="trigger_i" pad_name="C8R81_PAD" location="IO17_7" pin_no="28" inst_name="io_trigger_i_inst" direction="input" operation_mode="normal"/>
 	</ioConstraint>
 </aoc>
 
