@@ -5713,7 +5713,7 @@
     )
   )
 
-  (text "CJ3439KDW原理示意图" (at 288.925 94.615 0)
+  (text "CJ3439KDW原理示意图" (at 288.925 89.535 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 3948c14e-2f95-48b2-a99d-b59ea75ea72d)
   )
@@ -5721,7 +5721,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6d8dcba6-392d-4468-a969-7032513db619)
   )
-  (text "上电顺序：VCC_5V --- 0R          >>> OUT2(VCCAUX)\n                 --- 5.1k 1uF RC >>> OUT1(0.95V)\n                 --- 10k 1uF RC  >>> OUT3(3.3V)\nCJ3439KDW在3.3V上电后，导通VCCAUX到VDDIO_1V8"
+  (text "上电顺序：VCC_5V --- 0R          >>> OUT1(0.95V)\n                 --- 10k 1uF RC  >>> OUT2(VCCAUX)\n                 --- 20k 1uF RC  >>> OUT3(3.3V)\nCJ3439KDW在3.3V上电后，导通VCCAUX到VDDIO_1V8"
     (at 278.13 117.475 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 9a73c80a-8bfb-463e-9fa3-c0e4e2f54aac)
