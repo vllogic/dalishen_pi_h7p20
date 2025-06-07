@@ -3,7 +3,6 @@ Comment,Designator,Footprint,LCSC,Quantity
 "5.1k,1%",R13,0402,,1
 "20k,1%",R38,0402,,1
 0.1uF,C53,0402,,1
-TestPoint,TP15,PinHeader_1x01_P1.00mm_Vertical,,1
 0.1uF,C18,0402,,1
 NC,R27,0402,,1
 10uF,C25,0402,,1
@@ -18,14 +17,12 @@ TestPoint,TP16,TestPoint_Pad_D0.3mm,,1
 4.7k,R17,0402,,1
 LED_GREEN,D6,LED_0603_1608Metric,,1
 LED_BLUE,D3,LED_0603_1608Metric,,1
-NC,C40,0402,,1
 "150k,1%",R32,0402,,1
 0.1uF,C52,0402,,1
 NC,C54,0402,,1
 CY7C68013A-56LTX,U7,QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm,,1
 TestPoint,TP21,TestPoint_Pad_D0.3mm,,1
 0.1uF,C61,0402,,1
-TestPoint,TP14,PinHeader_1x01_P1.00mm_Vertical,,1
 TestPoint,TP18,TestPoint_Pad_D0.3mm,,1
 0.1uF,C60,0402,,1
 1uF,C36,0402,,1
@@ -61,14 +58,12 @@ USB_A,J3,USB-AF-180,,1
 1uF,C9,0402,,1
 0.1uF,C28,0402,,1
 10uF,C20,0402,,1
-NC,R36,0402,,1
 0.1uF,C15,0402,,1
 TestPoint,TP20,TestPoint_Pad_D0.3mm,,1
 LM2903,U3,MSOP-8_3x3mm_P0.65mm,,1
 0.1uF,C49,0402,,1
 1uF,C26,0402,,1
 4.7k,R16,0402,,1
-470,R7,0402,,1
 0.1uF,C34,0402,,1
 TestPoint,TP22,TestPoint_Pad_D0.3mm,,1
 0.1uF,C47,0402,,1
@@ -148,3 +143,5 @@ TestPoint,TP9,TestPoint_Pad_D0.75mm,,1
 TestPoint,TP10,TestPoint_Pad_D0.75mm,,1
 TestPoint,TP8,TestPoint_Pad_D0.75mm,,1
 SolderJumper_2_Open,JP3,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,1
+TestPoint,TP5,TestPoint_Pad_D0.3mm,,1
+FPGA_JTAG,J1,PinHeader_1x05_P2.54mm_Vertical,,1
