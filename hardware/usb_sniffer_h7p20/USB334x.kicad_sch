@@ -2096,7 +2096,7 @@
     (property "Value" "USB_A" (at 106.68 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "vllogic:USB-AF-180" (at 105.41 114.3 0)
+    (property "Footprint" "vllogic:USB-AF_YIJIAN" (at 105.41 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 105.41 114.3 0)
