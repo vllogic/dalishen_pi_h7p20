@@ -4,6 +4,7 @@
 `timescale 1ns / 1ps
 
 module usb_sniffer (
+  output        t_usb_refclk_o,
   input         t_usb_clk_i,
   output        t_usb_stp_o,
   input         t_usb_dir_i,
@@ -13,6 +14,7 @@ module usb_sniffer (
   input   [2:0] cmp_dm_i,
   input   [2:0] cmp_dp_i,
 
+  input         clkout_i,
   input         ifclk_i,
   output        slrd_o,
   output        slwr_o,
@@ -74,6 +76,12 @@ wire [1:0] cmp_dp_w =
 
 //-----------------------------------------------------------------------------
 wire [15:0] ctrl_w;
+
+pll_v1 pll_v1_inst (
+  .clkin0(clkout_i),
+  .locked(),
+  .clkout0(t_usb_refclk_o)
+);
 
 ctrl ctrl_inst (
   .clk_i(clk_i),

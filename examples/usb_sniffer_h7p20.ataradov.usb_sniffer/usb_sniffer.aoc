@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aoc version="2.3" device="H7P20N0L128-M3H1C7">
 	<ioConstraint>
+		<IO signal_name="clkout_i" pad_name="C36R81_PAD" location="IO13_PCLK_8" pin_no="6" inst_name="io_clkout_i_inst" direction="input" operation_mode="clock"/>
 		<IO signal_name="cmp_dm_i_0_" pad_name="C7R0_PAD" location="IO7_4" pin_no="68" inst_name="io_cmp_dm_i_0__inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="cmp_dm_i_1_" pad_name="C8R0_PAD" location="IO8_4" pin_no="69" inst_name="io_cmp_dm_i_1__inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="cmp_dm_i_2_" pad_name="io24_clk1" location="IO24_GCLK_1" pin_no="108" inst_name="io_cmp_dm_i_2__inst" direction="input" operation_mode="normal"/>
@@ -58,6 +59,7 @@
 		<IO signal_name="t_usb_d_io_7_" pad_name="C28R0_PAD" location="IO4_3" pin_no="83" inst_name="io_t_usb_d_io_7__inst" direction="inout" operation_mode="normal"/>
 		<IO signal_name="t_usb_dir_i" pad_name="C47R0_PAD" location="IO23_3" pin_no="98" inst_name="io_t_usb_dir_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="t_usb_nxt_i" pad_name="C41R0_PAD" location="IO17_3" pin_no="93" inst_name="io_t_usb_nxt_i_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="t_usb_refclk_o" pad_name="io27_clk3" location="IO27_GCLK_2" pin_no="104" inst_name="io_t_usb_refclk_o_inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="t_usb_stp_o" pad_name="C48R0_PAD" location="IO24_3" pin_no="99" inst_name="io_t_usb_stp_o_inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="trigger_i" pad_name="C8R81_PAD" location="IO17_7" pin_no="28" inst_name="io_trigger_i_inst" direction="input" operation_mode="normal"/>
 	</ioConstraint>
