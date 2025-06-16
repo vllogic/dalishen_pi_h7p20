@@ -190,6 +190,11 @@ always @(posedge ulpi_clk_i) begin
       state_r    <= ST_IDLE;
     end
 
+    default:begin
+      ulpi_stp_r <= 1'b0;
+      state_r    <= ST_IDLE;
+    end
+
   endcase
 end
 
@@ -205,6 +210,14 @@ assign utmi_tx_ready_o  = (ST_TX_DATA == state_r && ulpi_nxt_i) || (ST_IDLE == s
 
 assign utmi_linestate_o = linestate_r;
 assign utmi_vbus_o      = vbus_r;
+
+/*
+debugware_v2_1 debugware_v2_1_inst(
+    .trig_out_0(),
+    .data_in_0({state_r[2:0], ulpi_dir_i, ulpi_nxt_i, ulpi_stp_r, ulpi_clk_i}),
+    .ref_clk_0(ulpi_clk_i)
+);
+*/
 
 endmodule
 
