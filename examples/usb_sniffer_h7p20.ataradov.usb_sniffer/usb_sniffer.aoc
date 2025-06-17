@@ -2,12 +2,12 @@
 <aoc version="2.3" device="H7P20N0L128-M3H1C7">
 	<ioConstraint>
 		<IO signal_name="clkout_i" pad_name="C36R81_PAD" location="IO13_PCLK_8" pin_no="6" inst_name="io_clkout_i_inst" direction="input" operation_mode="clock"/>
-		<IO signal_name="cmp_dm_i_0_" pad_name="C7R0_PAD" location="IO7_4" pin_no="68" inst_name="io_cmp_dm_i_0__inst" direction="input" operation_mode="normal"/>
-		<IO signal_name="cmp_dm_i_1_" pad_name="C8R0_PAD" location="IO8_4" pin_no="69" inst_name="io_cmp_dm_i_1__inst" direction="input" operation_mode="normal"/>
-		<IO signal_name="cmp_dm_i_2_" pad_name="io24_clk1" location="IO24_GCLK_1" pin_no="108" inst_name="io_cmp_dm_i_2__inst" direction="input" operation_mode="normal"/>
-		<IO signal_name="cmp_dp_i_0_" pad_name="C9R0_PAD" location="IO9_4" pin_no="71" inst_name="io_cmp_dp_i_0__inst" direction="input" operation_mode="normal"/>
-		<IO signal_name="cmp_dp_i_1_" pad_name="io33_d2_miso3" location="IO33_MISO3_2" pin_no="102" inst_name="io_cmp_dp_i_1__inst" direction="input" operation_mode="normal"/>
-		<IO signal_name="cmp_dp_i_2_" pad_name="io25_dmux9_clk2" location="IO25_GCLK_2" pin_no="106" inst_name="io_cmp_dp_i_2__inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="cmp_dm_i_0_" pad_name="C7R0_PAD" location="IO7_4" pin_no="68" inst_name="io_cmp_dm_i_0__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
+		<IO signal_name="cmp_dm_i_1_" pad_name="C8R0_PAD" location="IO8_4" pin_no="69" inst_name="io_cmp_dm_i_1__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
+		<IO signal_name="cmp_dm_i_2_" pad_name="io24_clk1" location="IO24_GCLK_1" pin_no="108" inst_name="io_cmp_dm_i_2__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
+		<IO signal_name="cmp_dp_i_0_" pad_name="C9R0_PAD" location="IO9_4" pin_no="71" inst_name="io_cmp_dp_i_0__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
+		<IO signal_name="cmp_dp_i_1_" pad_name="io33_d2_miso3" location="IO33_MISO3_2" pin_no="102" inst_name="io_cmp_dp_i_1__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
+		<IO signal_name="cmp_dp_i_2_" pad_name="io25_dmux9_clk2" location="IO25_GCLK_2" pin_no="106" inst_name="io_cmp_dp_i_2__inst" direction="input" operation_mode="normal" keep_sel="pullup"/>
 		<IO signal_name="ctrl_clk_i" pad_name="C38R81_PAD" location="IO11_8" pin_no="4" inst_name="io_ctrl_clk_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="ctrl_data_i" pad_name="C31R81_PAD" location="IO18_8" pin_no="9" inst_name="io_ctrl_data_i_inst" direction="input" operation_mode="normal"/>
 		<IO signal_name="dbg_o_0_" pad_name="" location="" pin_no="" inst_name="io_dbg_o_0__inst" direction="output" operation_mode="normal"/>
