@@ -423,7 +423,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "h7p20_discovery.kicad_pro",
+    "filename": "dalishen_pi_h7p20.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -543,8 +543,8 @@
       "YT8531C"
     ],
     [
-      "bd4c9780-8757-4d43-90d3-516996f3c3ef",
-      "ET3036C"
+      "71e8536c-1311-4586-a8f9-5b6b2934d7dd",
+      "ET3036C_CJ3439KDW"
     ]
   ],
   "text_variables": {}
