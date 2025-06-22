@@ -110,6 +110,7 @@ TestPoint,TP1,PinHeader_1x01_P1.00mm_Vertical,,1
 0.1uF,C29,C_0402_1005Metric,,1
 0.1uF,C16,C_0402_1005Metric,,1
 "10k,1%",R19,R_0402_1005Metric,,1
+0,R1,R_0402_1005Metric,,1
 0.1uF,C4,C_0402_1005Metric,,1
 NC,C19,C_0402_1005Metric,,1
 4.7k,R15,R_0402_1005Metric,,1
