@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AgateProject version="3.2">
+    <name>pi_test</name>
+    <device>H7P20N0L128-M3H1C7</device>
+    <topModule>pi_test</topModule>
+    <MonitorSignal>Default|Default</MonitorSignal>
+    <project-parameters>
+        <param name="timing_analysis_corner">worst</param>
+    </project-parameters>
+    <command-args toolName="bg">
+        <argument name="fcfg">1</argument>
+    </command-args>
+    <command-args toolName="placer">
+        <argument name="ignore_net_fanout_threshold">150</argument>
+    </command-args>
+    <files>
+        <file>$(PRJ_DIR)/ctrl.v</file>
+        <file>$(PRJ_DIR)/fifo_sync.v</file>
+        <file>$(PRJ_DIR)/speed_detect.v</file>
+        <file>$(PRJ_DIR)/usb_capture.v</file>
+        <file>$(PRJ_DIR)/usb_phy.v</file>
+        <file>$(PRJ_DIR)/pi_test.v</file>
+        <file>$(PRJ_DIR)/pi_test.sdc</file>
+        <file>$(PRJ_DIR)/pll_v1.v</file>
+        <file>$(PRJ_DIR)/debugware_v2_1.v</file>
+    </files>
+</AgateProject>

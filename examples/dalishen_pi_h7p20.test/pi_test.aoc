@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aoc version="2.3" device="H7P20N0L128-M3H1C7">
+	<ioConstraint>
+		<IO signal_name="etha_25M" pad_name="C27R0_PAD" location="IO3_3" pin_no="82" inst_name="io_etha_25M_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="usb334x_clk_60M" pad_name="C37R0_PAD" location="IO13_GCLK_3" pin_no="92" inst_name="io_usb334x_clk_60M_inst" direction="input" operation_mode="clock"/>
+	</ioConstraint>
+</aoc>
+
