@@ -4,6 +4,7 @@
 `timescale 1ns / 1ps
 
 module usb_sniffer (
+  output        t_usb_refclk_o,
   input         t_usb_clk_i,
   output        t_usb_stp_o,
   input         t_usb_dir_i,
@@ -13,34 +14,33 @@ module usb_sniffer (
   input   [2:0] cmp_dm_i,
   input   [2:0] cmp_dp_i,
 
+  input         clkout_i,
   input         ifclk_i,
-  //output        slrd_o,
+  output        slrd_o,
   output        slwr_o,
-  //output        sloe_o,
+  output        sloe_o,
   output        pktend_o,
-  //input         flaga_i,
+  input         flaga_i,
   input         flagb_i,
-  //input         flagc_i,
-  //output  [1:0] fifoaddr_o,
+  input         flagc_i,
+  output  [1:0] fifoaddr_o,
   output [15:0] fd_o,
 
   input         ctrl_clk_i,
   input         ctrl_data_i,
 
-  //input         trigger_i,
+  input         trigger_i,
 
-  input         jtagen_i
+  input         jtagen_i,
 
-  //output  [6:0] spare_o,
-  //output  [3:0] dbg_o
+  output  [6:0] spare_o,
+  output  [3:0] dbg_o
 );
 
 //-----------------------------------------------------------------------------
 wire clk_i = t_usb_clk_i;
 
 //-----------------------------------------------------------------------------
-reg trigger_i = 1'b1;
-
 reg [1:0] trigger_r;
 
 wire trigger_w = trigger_r[1];
@@ -76,6 +76,12 @@ wire [1:0] cmp_dp_w =
 
 //-----------------------------------------------------------------------------
 wire [15:0] ctrl_w;
+
+pll_v1 pll_v1_inst (
+  .clkin0(clkout_i),
+  .locked(),
+  .clkout0(t_usb_refclk_o)
+);
 
 ctrl ctrl_inst (
   .clk_i(clk_i),
@@ -206,13 +212,13 @@ end
 assign slwr_o     = if_ready_w && (test_sync_w ? 1'b1 : rd_valid_w);
 assign pktend_o   = test_sync_w ? 1'b0 : pktend_r;
 assign fd_o       = jtagen_i ? 16'hzzzz : (test_sync_w ? rng_r : rd_data_w);
-//assign slrd_o     = 1'b0;
-//assign sloe_o     = 1'b0;
-//assign fifoaddr_o = 2'b00;
+assign slrd_o     = 1'b0;
+assign sloe_o     = 1'b0;
+assign fifoaddr_o = 2'b00;
 
 //-----------------------------------------------------------------------------
-//assign dbg_o   = 4'h0;
-//assign spare_o = 7'h0;
+assign dbg_o   = 4'h0;
+assign spare_o = 7'h0;
 
 endmodule
 

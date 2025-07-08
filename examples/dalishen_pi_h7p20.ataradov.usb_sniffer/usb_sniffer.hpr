@@ -21,5 +21,7 @@
         <file>$(PRJ_DIR)/usb_phy.v</file>
         <file>$(PRJ_DIR)/usb_sniffer.v</file>
         <file>$(PRJ_DIR)/usb_sniffer.sdc</file>
+        <file>$(PRJ_DIR)/pll_v1.v</file>
+        <file>$(PRJ_DIR)/debugware_v2_1.v</file>
     </files>
 </AgateProject>
