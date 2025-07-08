@@ -5,284 +5,6 @@
 	(uuid "c5aec547-55b4-4f91-bc67-b2144dba604b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Comparator:LM2903"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM2903"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp open collector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2903_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2903_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2903_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -2413,18 +2135,6 @@
 		(uuid "19177f44-cd07-496f-98a4-4f640a908cc8")
 	)
 	(junction
-		(at 24.13 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2259a753-4724-41ab-bf0d-bdbd5d974397")
-	)
-	(junction
-		(at 24.13 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "265534b6-a04a-4517-9ef3-f59299915aa0")
-	)
-	(junction
 		(at 177.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2437,22 +2147,10 @@
 		(uuid "30f2f697-d9c6-4685-9688-e4d29a08ad4f")
 	)
 	(junction
-		(at 50.8 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42a44b5a-bb7f-4b76-9393-d694421168ce")
-	)
-	(junction
 		(at 154.94 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4769d7fd-5e75-472c-8300-6f86f6783094")
-	)
-	(junction
-		(at 24.13 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "518494ec-e7e8-4466-b429-7c9eb20e43cd")
 	)
 	(junction
 		(at 198.12 50.8)
@@ -2477,12 +2175,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f39f0bd-6103-498e-abdd-c15816359146")
-	)
-	(junction
-		(at 50.8 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77361413-d90a-4f86-bbf2-1e03c2ab3ce5")
 	)
 	(junction
 		(at 154.94 93.98)
@@ -2521,12 +2213,6 @@
 		(uuid "bb891d23-223e-423e-b532-29a26766d0b7")
 	)
 	(junction
-		(at 50.8 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c59e52eb-7766-45bd-91b3-95c204fb0ea6")
-	)
-	(junction
 		(at 154.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2543,16 +2229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edb1bb65-d59c-46c8-9ed3-816dbf9730ee")
-	)
-	(wire
-		(pts
-			(xy 50.8 193.04) (xy 52.07 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02aff5df-66c8-4f91-9c5f-16c6de2b8f96")
 	)
 	(wire
 		(pts
@@ -2576,16 +2252,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 175.26) (xy 50.8 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07400567-20e5-4c4b-978c-4fb26e13625d")
-	)
-	(wire
-		(pts
 			(xy 116.84 71.12) (xy 116.84 73.66)
 		)
 		(stroke
@@ -2603,26 +2269,6 @@
 			(type default)
 		)
 		(uuid "141d0920-70eb-44b0-bd53-e38a2f1d0fd7")
-	)
-	(wire
-		(pts
-			(xy 50.8 124.46) (xy 52.07 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "165c332c-ca12-49bb-87f1-4ba2556368c5")
-	)
-	(wire
-		(pts
-			(xy 24.13 95.25) (xy 24.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16680d1c-2928-4324-b8a3-b9d325fb971e")
 	)
 	(wire
 		(pts
@@ -2663,16 +2309,6 @@
 			(type default)
 		)
 		(uuid "1e4b666c-c87b-4802-9042-a41d6156218c")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 52.07 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b3135f-a7f2-4c5e-901b-ea8d210757e9")
 	)
 	(wire
 		(pts
@@ -2736,16 +2372,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 170.18) (xy 52.07 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378bf95d-81c4-4d66-8c0d-16058cec7b71")
-	)
-	(wire
-		(pts
 			(xy 123.19 113.03) (xy 123.19 71.12)
 		)
 		(stroke
@@ -2753,26 +2379,6 @@
 			(type default)
 		)
 		(uuid "37a825eb-276e-43c2-b9ca-43fdf1da899e")
-	)
-	(wire
-		(pts
-			(xy 40.64 187.96) (xy 52.07 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3804f848-dcd1-4ab1-870d-fef8001f7711")
-	)
-	(wire
-		(pts
-			(xy 24.13 106.68) (xy 31.75 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c628bd3-b89b-4a9f-9115-2c020af865db")
 	)
 	(wire
 		(pts
@@ -2796,26 +2402,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 153.67) (xy 52.07 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be20032-1c7f-47d1-99e2-04631138813e")
-	)
-	(wire
-		(pts
-			(xy 57.15 96.52) (xy 67.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f02e40b-ba2a-46eb-89d2-71e980d47454")
-	)
-	(wire
-		(pts
 			(xy 125.73 57.15) (xy 125.73 60.96)
 		)
 		(stroke
@@ -2826,16 +2412,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 158.75) (xy 52.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550bd6b3-3b94-4eb5-b2af-dddb59f68a91")
-	)
-	(wire
-		(pts
 			(xy 123.19 71.12) (xy 182.88 71.12)
 		)
 		(stroke
@@ -2843,16 +2419,6 @@
 			(type default)
 		)
 		(uuid "577f15fa-b632-4b06-a4e6-6340e3c80779")
-	)
-	(wire
-		(pts
-			(xy 24.13 115.57) (xy 24.13 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ccfb6d-e7cf-41c0-affe-8be277d50c51")
 	)
 	(wire
 		(pts
@@ -2926,16 +2492,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 106.68) (xy 24.13 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b0a356b-fac3-4b13-bd3f-2205ae45a50e")
-	)
-	(wire
-		(pts
 			(xy 116.84 60.96) (xy 125.73 60.96)
 		)
 		(stroke
@@ -2963,16 +2519,6 @@
 			(type default)
 		)
 		(uuid "73e951d3-8de1-4320-8c13-9d3e857f1ffe")
-	)
-	(wire
-		(pts
-			(xy 24.13 96.52) (xy 24.13 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e0fc54-b1ab-4016-bd29-eb9a525cf263")
 	)
 	(wire
 		(pts
@@ -3046,36 +2592,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 31.75 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819469f7-f105-43ad-b4aa-0d9399589d5b")
-	)
-	(wire
-		(pts
-			(xy 24.13 142.24) (xy 34.29 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82eec0aa-9407-44f9-9952-1a10b917b21f")
-	)
-	(wire
-		(pts
-			(xy 50.8 175.26) (xy 50.8 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8309d28a-2a8d-46c6-afa9-f472a8418621")
-	)
-	(wire
-		(pts
 			(xy 234.95 40.64) (xy 234.95 41.91)
 		)
 		(stroke
@@ -3136,26 +2652,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 135.89) (xy 52.07 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f5ee20e-6379-4733-8b10-0640ad5e1f3e")
-	)
-	(wire
-		(pts
-			(xy 24.13 105.41) (xy 24.13 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c30cf6-e989-4f4e-b4de-f854b27ccc99")
-	)
-	(wire
-		(pts
 			(xy 213.36 91.44) (xy 229.87 91.44)
 		)
 		(stroke
@@ -3163,16 +2659,6 @@
 			(type default)
 		)
 		(uuid "91c9ab9e-5fce-4d0d-a4d5-c19a5d69308c")
-	)
-	(wire
-		(pts
-			(xy 50.8 106.68) (xy 52.07 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92dd2797-21e0-4e8b-aba1-7f340a78005d")
 	)
 	(wire
 		(pts
@@ -3193,16 +2679,6 @@
 			(type default)
 		)
 		(uuid "99b471f6-11a5-4e4e-86d4-7dfc2b2f0a17")
-	)
-	(wire
-		(pts
-			(xy 40.64 119.38) (xy 52.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c73a2a-6a8c-4bc9-b2f4-c1a4c6686cc3")
 	)
 	(wire
 		(pts
@@ -3246,16 +2722,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 106.68) (xy 50.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5bbbc0-e9e4-44e6-ace7-049cecb8591d")
-	)
-	(wire
-		(pts
 			(xy 213.36 68.58) (xy 229.87 68.58)
 		)
 		(stroke
@@ -3276,16 +2742,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 87.63) (xy 31.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a81343-471a-42ec-b484-9ff1a693dc72")
-	)
-	(wire
-		(pts
 			(xy 120.65 53.34) (xy 116.84 53.34)
 		)
 		(stroke
@@ -3293,16 +2749,6 @@
 			(type default)
 		)
 		(uuid "b2e0d63c-3fc1-4c76-a56d-41c52265cc9b")
-	)
-	(wire
-		(pts
-			(xy 24.13 116.84) (xy 24.13 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e4c274-accc-40ad-ad1c-7e94db77f6d6")
 	)
 	(wire
 		(pts
@@ -3326,16 +2772,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 165.1) (xy 67.31 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8470444-2666-4781-bda0-5cc235fd624d")
-	)
-	(wire
-		(pts
 			(xy 146.05 68.58) (xy 146.05 53.34)
 		)
 		(stroke
@@ -3356,16 +2792,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 67.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd117d82-ef2c-4a8d-b4c7-a6a9dfa29fad")
-	)
-	(wire
-		(pts
 			(xy 31.75 31.75) (xy 44.45 31.75)
 		)
 		(stroke
@@ -3383,16 +2809,6 @@
 			(type default)
 		)
 		(uuid "c40823d8-4c82-4149-ab3d-2ea68cdc0faa")
-	)
-	(wire
-		(pts
-			(xy 50.8 140.97) (xy 50.8 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c534acdf-3611-4704-ba72-6caf8cb866e5")
 	)
 	(wire
 		(pts
@@ -3443,26 +2859,6 @@
 			(type default)
 		)
 		(uuid "d8304239-6b7b-4d79-a1ae-96c2d50812c1")
-	)
-	(wire
-		(pts
-			(xy 50.8 106.68) (xy 50.8 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ac0949-23c6-4122-a148-66d358a4dae6")
-	)
-	(wire
-		(pts
-			(xy 24.13 116.84) (xy 31.75 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da12d97b-e224-4aed-b96b-b9d89b4e0e2c")
 	)
 	(wire
 		(pts
@@ -3576,26 +2972,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 101.6) (xy 52.07 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57aa61b-b2d5-477f-bac6-dac40c551220")
-	)
-	(wire
-		(pts
-			(xy 40.64 140.97) (xy 50.8 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f869cc75-6bc7-4ff5-a65b-db25cd86fb9f")
-	)
-	(wire
-		(pts
 			(xy 129.54 57.15) (xy 125.73 57.15)
 		)
 		(stroke
@@ -3613,96 +2989,6 @@
 			(type default)
 		)
 		(uuid "fe2affb6-c24d-41ee-8ffd-5b4a0934c78d")
-	)
-	(wire
-		(pts
-			(xy 50.8 175.26) (xy 52.07 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8c1e7b-2eb3-492c-ae35-c1f84fbd49df")
-	)
-	(label "USB20_D_N"
-		(at 40.64 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bf66ab4-f985-4962-a220-5e0cef17fc30")
-	)
-	(label "CMP_REF_2"
-		(at 40.64 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1043b1ec-9f7c-494d-98ea-178e3cbedf19")
-	)
-	(label "VCC_5V"
-		(at 57.15 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1440aec6-42e4-4d9d-ae16-9a24f2258986")
-	)
-	(label "USB20_D_N"
-		(at 40.64 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "16c5e374-cfa1-4728-aaf4-967372e20494")
-	)
-	(label "USB20_D_P"
-		(at 40.64 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b1cdc46-45fb-454c-b6d9-704b85b40c79")
-	)
-	(label "USB20_D_N"
-		(at 40.64 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cc50bfa-6fd4-4d8c-9347-3e6d462f02b0")
-	)
-	(label "VCC_5V"
-		(at 24.13 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "261e0690-8aad-4331-9e95-68767abc10f2")
-	)
-	(label "VCC_3V3"
-		(at 24.13 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33e7d656-dc8f-479d-96a5-9af2da4f9597")
 	)
 	(label "USB334x_NXT"
 		(at 213.36 93.98 0)
@@ -3744,26 +3030,6 @@
 		)
 		(uuid "472fe5c4-3c1d-459a-8d4d-b59c1486629e")
 	)
-	(label "VCC_5V"
-		(at 57.15 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a915ffe-178b-4aa2-9ff5-9461f1a6aaca")
-	)
-	(label "CMP_REF_3"
-		(at 40.64 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d8cff94-ee19-4062-9f6b-95f3b6ad8404")
-	)
 	(label "USB334x_D4"
 		(at 213.36 78.74 0)
 		(effects
@@ -3774,16 +3040,6 @@
 		)
 		(uuid "6b1a0a0c-4bb3-4cc1-aa56-9730fd2283ed")
 	)
-	(label "CMP_REF_3"
-		(at 24.13 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7280063c-172a-4c7f-8a58-030c6337a401")
-	)
 	(label "USB334x_D0"
 		(at 213.36 68.58 0)
 		(effects
@@ -3793,26 +3049,6 @@
 			(justify left bottom)
 		)
 		(uuid "85088fa0-8efd-4518-a0f0-a34d77389d93")
-	)
-	(label "CMP_REF_1"
-		(at 24.13 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86903a02-fefb-4bcc-adb7-59cceb08db6c")
-	)
-	(label "USB20_D_P"
-		(at 40.64 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b773d33-d517-4caf-9ea4-8423ef42a9c4")
 	)
 	(label "T_VBUS"
 		(at 109.22 107.95 0)
@@ -3854,16 +3090,6 @@
 		)
 		(uuid "a9643fe4-93e8-4703-968e-5aa8630dafc0")
 	)
-	(label "CMP_REF_2"
-		(at 24.13 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b11dac30-6c5a-48e8-8022-09abd7c5e895")
-	)
 	(label "VCC_3V3"
 		(at 173.99 44.45 0)
 		(effects
@@ -3873,16 +3099,6 @@
 			(justify left bottom)
 		)
 		(uuid "b2cb3e27-7e2b-4437-90e6-dc5e22ce9270")
-	)
-	(label "VCC_5V"
-		(at 57.15 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2ff695d-598c-4468-8fcf-4bca3997894d")
 	)
 	(label "USB334x_D7"
 		(at 213.36 86.36 0)
@@ -3904,16 +3120,6 @@
 		)
 		(uuid "c3d6fd34-6f89-4dcf-babc-b1b07a083fca")
 	)
-	(label "CMP_REF_1"
-		(at 40.64 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce1e6f9a-769e-4050-87be-957d52308838")
-	)
 	(label "USB20_D_P"
 		(at 109.22 113.03 0)
 		(effects
@@ -3923,16 +3129,6 @@
 			(justify left bottom)
 		)
 		(uuid "d4fb4880-d5e8-40f4-af51-2103485b345c")
-	)
-	(label "USB20_D_P"
-		(at 40.64 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d75c859e-a3a3-4e98-8882-d186b089b0b8")
 	)
 	(label "VCC_3V3"
 		(at 31.75 34.29 0)
@@ -4040,17 +3236,6 @@
 		)
 		(uuid "4ccdc1e6-20ce-4a34-98a4-1569f78ca16a")
 	)
-	(hierarchical_label "USB20_DP_CMP3"
-		(shape output)
-		(at 67.31 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a1e8a6d-ce52-43fc-bdb6-7974dbad939e")
-	)
 	(hierarchical_label "USB334x_D4"
 		(shape bidirectional)
 		(at 229.87 78.74 0)
@@ -4073,17 +3258,6 @@
 		)
 		(uuid "6d1dbc09-8b61-48a1-a1ea-c7bf5f7011ed")
 	)
-	(hierarchical_label "USB20_DM_CMP2"
-		(shape output)
-		(at 67.31 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74e099c4-88c1-4b84-a6b5-9c876f029b70")
-	)
 	(hierarchical_label "USB334x_D3"
 		(shape bidirectional)
 		(at 229.87 76.2 0)
@@ -4094,17 +3268,6 @@
 			(justify left)
 		)
 		(uuid "7558b08a-50c4-4612-b0aa-ac5cd9f21f40")
-	)
-	(hierarchical_label "USB20_DP_CMP1"
-		(shape output)
-		(at 67.31 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83dcc5a6-0ef3-40b7-b59a-d743006e9ed3")
 	)
 	(hierarchical_label "VCC_3V3"
 		(shape input)
@@ -4128,17 +3291,6 @@
 		)
 		(uuid "965d5014-b743-4071-a7d6-5a0dd57fa725")
 	)
-	(hierarchical_label "USB20_DM_CMP1"
-		(shape output)
-		(at 67.31 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e06a473-cd0f-4bb5-9ee0-827cbd576d5a")
-	)
 	(hierarchical_label "USB334x_D5"
 		(shape bidirectional)
 		(at 229.87 81.28 0)
@@ -4149,17 +3301,6 @@
 			(justify left)
 		)
 		(uuid "b1b37a82-0ff1-4742-9535-312e8c1be0d4")
-	)
-	(hierarchical_label "USB20_DM_CMP3"
-		(shape output)
-		(at 67.31 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c3bfc9d9-1900-4d9b-8add-561cdfaf3ac8")
 	)
 	(hierarchical_label "USB334x_D0"
 		(shape bidirectional)
@@ -4182,17 +3323,6 @@
 			(justify left)
 		)
 		(uuid "edcd94a1-44e2-4f31-acba-be5c0d2492f3")
-	)
-	(hierarchical_label "USB20_DP_CMP2"
-		(shape output)
-		(at 67.31 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe5a606f-0f72-451c-bb27-0c945a7be35a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4259,93 +3389,6 @@
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "R90")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 138.43 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bc39b6a-fd7d-439c-9898-78df8c53c7ec")
-		(property "Reference" "U18"
-			(at 58.42 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 58.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "40b329c2-9a22-47fb-a515-3d6a3def754b")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edad")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f77d")
-		)
-		(pin "8"
-			(uuid "381c086f-20db-48ed-be3f-9881a669bfa2")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c84")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c63")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c8c")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674cc")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U18")
-					(unit 3)
 				)
 			)
 		)
@@ -4617,90 +3660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c8097ae-4356-455a-892d-bd04c5cc41e5")
-		(property "Reference" "U18"
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 66.04 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb6560")
-		)
-		(pin "2"
-			(uuid "294ad0de-6638-4a8e-acd4-18fb70d18a54")
-		)
-		(pin "1"
-			(uuid "184b11cf-795b-40df-b013-a56e34125173")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c14")
-		)
-		(pin "3"
-			(uuid "4ce8a289-7d9a-4167-a99d-0e7cb7d3920b")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c62")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c8b")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674cb")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 52.07 0)
 		(unit 1)
@@ -4834,154 +3793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "437b37c0-d0ab-4031-a78f-35460eafd222")
-		(property "Reference" "#PWR01"
-			(at 24.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.257 130.1242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e31d4426-0166-45ec-b6c4-00551b2c8320")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 156.21 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "493fb82e-38c2-4c8a-8d72-6b47fd222ad4")
-		(property "Reference" "U18"
-			(at 60.96 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 66.04 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb655f")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edab")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f77b")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c13")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c82")
-		)
-		(pin "7"
-			(uuid "a1827c79-0f95-408a-ace1-1e4f8e932d76")
-		)
-		(pin "5"
-			(uuid "c3714edc-dc1c-48d3-98cd-05c275314a3a")
-		)
-		(pin "6"
-			(uuid "2792d965-6125-4a15-9f3b-e1f7f0fd20af")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U18")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
 		(at 147.32 93.98 0)
 		(unit 1)
@@ -5056,138 +3867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 24.13 146.05 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a7cfbf3-01c1-42a5-85d9-1c5b1bf97448")
-		(property "Reference" "C1"
-			(at 27.051 144.8816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 27.051 147.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 23.1648 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98ea2301-b2b4-40ba-a8aa-464841eb57ce")
-		)
-		(pin "2"
-			(uuid "480f0e85-d5b8-41ed-becb-b7987d38364d")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 24.13 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4de2b532-6fda-4334-8d8c-e017447534c3")
-		(property "Reference" "#PWR04"
-			(at 24.13 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.257 154.2542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f27a219e-55d4-470c-b25e-02fd985d9908")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 162.56 68.58 90)
 		(unit 1)
@@ -5248,75 +3927,6 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a51832f-5e34-442a-b085-ede84ce770a0")
-		(property "Reference" "R2"
-			(at 26.67 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33k"
-			(at 26.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "24a157df-803a-4c78-b960-7170e626c63e")
-		)
-		(pin "1"
-			(uuid "e13fbdda-39d8-47ec-9442-a5f24affc3fd")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5787,90 +4397,6 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8bcbe4fe-c5a8-406d-aace-c91a8fee7a63")
-		(property "Reference" "U2"
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 66.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb6561")
-		)
-		(pin "2"
-			(uuid "a734e5cb-d315-48d2-ab53-aedbee56bc7e")
-		)
-		(pin "1"
-			(uuid "d7313f51-220b-4ec4-be12-f648196fafdc")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c15")
-		)
-		(pin "3"
-			(uuid "d8760569-a266-4c95-9289-1b6988830b21")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c61")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c8a")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674ca")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6528,90 +5054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 121.92 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aefa98a6-7eae-4cba-97cd-095821af57a8")
-		(property "Reference" "U2"
-			(at 60.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb6562")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edae")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f77e")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c16")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c85")
-		)
-		(pin "7"
-			(uuid "326d0a35-8b4c-4e59-a471-8b54634406b5")
-		)
-		(pin "5"
-			(uuid "c5e9c72b-1ad2-4031-a78a-a5f84555a985")
-		)
-		(pin "6"
-			(uuid "0e838986-e2b5-41b9-8ee3-78eac2637dc7")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 101.6 0)
 		(unit 1)
@@ -6672,395 +5114,6 @@
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "#PWR031")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5d8a131-16f7-4492-b298-342ae33213e8")
-		(property "Reference" "#PWR022"
-			(at 57.15 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.277 184.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d0c842a-50c4-476a-b442-82cd987fae1f")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 104.14 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9224dcd-26a9-4249-8113-2a2926c9f91b")
-		(property "Reference" "U2"
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 58.42 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "be76adb3-a207-4c03-a290-01587bbb1405")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edaf")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f77f")
-		)
-		(pin "8"
-			(uuid "9907cb36-fa97-4776-8ab0-976a8069347b")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c86")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c65")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c8e")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674ce")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb7a95e6-ca9a-404e-a9bc-bf37deebc1bd")
-		(property "Reference" "R10"
-			(at 26.67 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 26.67 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b5538b5-aa4c-453c-ade3-b313c76a0f07")
-		)
-		(pin "1"
-			(uuid "2b2c333b-4a64-429a-af9c-7d18ba29c81b")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfe9fd0e-658a-40cd-8f0c-b438e681bde6")
-		(property "Reference" "U19"
-			(at 60.96 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 64.77 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb6564")
-		)
-		(pin "2"
-			(uuid "7e9cf3ac-c966-463b-b01b-928e1ad9ba23")
-		)
-		(pin "1"
-			(uuid "2c1a3f79-99f9-4adb-a73d-91b71cde4c89")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c18")
-		)
-		(pin "3"
-			(uuid "ca26c162-ae97-4a2d-b7c9-e6c69cb4ee8d")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c66")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c8f")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674cf")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 190.5 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4cd45d0-6594-4e51-8898-5a5c25d819ab")
-		(property "Reference" "U19"
-			(at 60.96 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 66.04 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "f5823cb7-400d-437e-add4-949927bb6565")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edb0")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f780")
-		)
-		(pin "8"
-			(uuid "bb4af632-d7d4-44d4-972d-da87f2698c19")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c87")
-		)
-		(pin "7"
-			(uuid "8b4f4928-2277-4705-8d6b-e83b12ba3659")
-		)
-		(pin "5"
-			(uuid "6970dd77-d461-4624-8f05-ac12c43bff90")
-		)
-		(pin "6"
-			(uuid "750f234e-3263-4f4f-ac36-1c441fe421d9")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U19")
-					(unit 2)
 				)
 			)
 		)
@@ -7128,75 +5181,6 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e098f6f6-3487-4f25-8275-533c247aa83e")
-		(property "Reference" "R1"
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k,1%"
-			(at 26.67 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b5de06a5-fc98-4222-bba0-57539f4b6a04")
-		)
-		(pin "1"
-			(uuid "399b8838-19a8-49ba-b13d-02e1479576fb")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7335,225 +5319,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2903")
-		(at 59.69 172.72 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed89c89b-815b-47ed-a67c-61601703936f")
-		(property "Reference" "U19"
-			(at 58.42 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM2903A-VR"
-			(at 59.69 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "80450a57-f319-4c76-a4e0-ba5b924ec114")
-		)
-		(pin "2"
-			(uuid "1b971e55-5000-4fda-a376-aa452f61edb1")
-		)
-		(pin "1"
-			(uuid "fe28170b-5ccd-496f-bc00-5cf6dd02f781")
-		)
-		(pin "8"
-			(uuid "ea6a6922-5fef-4bde-bb96-12ae1e74ebcc")
-		)
-		(pin "3"
-			(uuid "e8bcb6fa-3955-44a4-b852-3eb1bb538c88")
-		)
-		(pin "7"
-			(uuid "76dcfdf6-7400-4c31-943b-8366e3ca3c67")
-		)
-		(pin "5"
-			(uuid "39b43c2c-4f81-4826-b9ac-919f33695c90")
-		)
-		(pin "6"
-			(uuid "051556d7-8bed-4ec2-b710-bab7b9a674d0")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "U19")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef24da28-ad35-4277-afeb-6d6d3863d88c")
-		(property "Reference" "#PWR06"
-			(at 57.15 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.277 116.1542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "603ae94d-ba37-487e-9a8b-7886444e3402")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef874c23-c5db-43d3-9c90-f02bd5c833c3")
-		(property "Reference" "R3"
-			(at 26.67 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 26.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 22.352 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57ea95a3-ea10-432f-aeba-6d6243a1e871")
-		)
-		(pin "1"
-			(uuid "e04e1cbb-0b14-4aac-a143-67a247d5ff23")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 101.6 93.98 0)
 		(unit 1)
@@ -7613,70 +5378,6 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcaf0648-0b07-4e15-adc6-d8e13c18e399")
-		(property "Reference" "#PWR021"
-			(at 57.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.277 150.4442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10ab965e-08ca-46fc-9719-d11b4ea4b627")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
