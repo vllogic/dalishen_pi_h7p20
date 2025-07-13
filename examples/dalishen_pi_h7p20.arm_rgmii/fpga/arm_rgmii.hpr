@@ -10,11 +10,11 @@
         <file>$(PRJ_DIR)/ip_core/rgmii_v1/src/P0_P2/hme_ip_rgmii_rx.v</file>
         <file>$(PRJ_DIR)/ip_core/rgmii_v1/src/P0_P2/hme_ip_rgmii_tx.v</file>
         <file>$(PRJ_DIR)/src/rgmii_v1.v</file>
-        <file>$(PRJ_DIR)/src/mdio_interface.v</file>
         <file>$(PRJ_DIR)/src/soc_system_v1.v</file>
         <file>$(PRJ_DIR)/src/ddr_rx.v</file>
         <file>$(PRJ_DIR)/src/ddr_tx.v</file>
         <file>$(PRJ_DIR)/src/pll_v1.v</file>
         <file>$(PRJ_DIR)/src/top.sdc</file>
+        <file>$(PRJ_DIR)/src/mdio_interface.v</file>
     </files>
 </AgateProject>
