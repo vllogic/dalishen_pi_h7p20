@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aoc version="2.3" device="H7P20N0L128-M3H1C7">
+	<ioConstraint>
+		<IO signal_name="etha_25m" pad_name="" location="" pin_no="" inst_name="io_etha_25m_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="i_rgmii_rx_ctl" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_rx_u_DDRIO_rx_i_pad" direction="input" operation_mode="normal"/>
+		<IO signal_name="i_rgmii_rxc" pad_name="" location="" pin_no="" inst_name="io_i_rgmii_rxc_inst" direction="input" operation_mode="clock"/>
+		<IO signal_name="i_rgmii_rxd_0_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_rx_genblk2_0__U_DDIO_INDATA_i_pad" direction="input" operation_mode="normal"/>
+		<IO signal_name="i_rgmii_rxd_1_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_rx_genblk2_1__U_DDIO_INDATA_i_pad" direction="input" operation_mode="normal"/>
+		<IO signal_name="i_rgmii_rxd_2_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_rx_genblk2_2__U_DDIO_INDATA_i_pad" direction="input" operation_mode="normal"/>
+		<IO signal_name="i_rgmii_rxd_3_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_rx_genblk2_3__U_DDIO_INDATA_i_pad" direction="input" operation_mode="normal"/>
+		<IO signal_name="io_mdio" pad_name="" location="" pin_no="" inst_name="io_io_mdio_inst" direction="inout" operation_mode="normal"/>
+		<IO signal_name="o_mdc" pad_name="" location="" pin_no="" inst_name="io_o_mdc_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_phy_rstn" pad_name="" location="" pin_no="" inst_name="io_o_phy_rstn_inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_tx_ctl" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_U_DDRIO_OUT_EN_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_txc" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_U_DDRIO_OUT_CLK_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_txd_0_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_genblk1_0__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_txd_1_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_genblk1_1__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_txd_2_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_genblk1_2__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="o_rgmii_txd_3_" pad_name="" location="" pin_no="" inst_name="rgmii_v1_u_tx_genblk1_3__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="usb334x_clk_60m" pad_name="" location="" pin_no="" inst_name="io_usb334x_clk_60m_inst" direction="input" operation_mode="clock"/>
+	</ioConstraint>
+</aoc>
+

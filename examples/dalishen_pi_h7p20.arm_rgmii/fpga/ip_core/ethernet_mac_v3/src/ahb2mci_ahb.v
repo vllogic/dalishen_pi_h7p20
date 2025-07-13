@@ -1,0 +1,87 @@
+//================================================================================
+// Copyright (c) 2013 Capital-micro, Inc.(Beijing)  All rights reserved.
+//
+// Capital-micro, Inc.(Beijing) Confidential.
+//
+// No part of this code may be reproduced, distributed, transmitted,
+// transcribed, stored in a retrieval system, or translated into any
+// human or computer language, in any form or by any means, electronic,
+// mechanical, magnetic, manual, or otherwise, without the express
+// written permission of Capital-micro, Inc.
+//
+//================================================================================
+// Module Description: 
+// This is address mapping module for Ethernet MAC IP control interface
+// 1. Address mapping for MAC control interface(MCI)
+// 2. Address mapping for MAC transmit/receive memory access (Optional)
+// 3. Address mapping for MAC transmit/receive memory control (Optional)
+//================================================================================
+// Revision History :
+//     V1.0   2013-03-18  FPGA IP Grp, first created
+//     V2.0   2014-04-25  FPGA IP Grp, support EMIF/AHB bus, modify TX/RX
+//     memory management   
+//     V3.0   2014-12-18  FPGA IP Grp, add eth_mac_core_f_1k.v to support
+//     1000M mode
+//================================================================================
+
+module cme_ip_ahb2mci_ahb_v3 (
+   clk_app_i,
+   rst_clk_app_n,
+	
+   fp0_s_ahb_sel,
+   fp0_s_ahb_addr,
+   fp0_s_ahb_write,
+   fp0_s_ahb_trans,
+   fp0_s_ahb_wdata,
+   fp0_s_ahb_readyout,
+   fp0_s_ahb_rdata,
+
+   irq,            //interrupt
+   // MAC Control Interface(MCI)
+   mci_val_o,
+   mci_addr_o,
+   mci_rdwrn_o,
+   mci_wdata_o,
+   mci_be_o,
+   mci_ack_i,
+   mci_rdata_i,
+   mci_intr_i,
+   
+   //interface with tr_mem_ctrl      
+   rx_len,
+   rx_stat,
+
+   clr_rx_mem_empty_stat,
+   rx_mem_rd_data,
+   rx_mem_rd_ack,
+   tx_stat,
+   tx_stat_val_i,
+   
+
+   tx_mem_0_clr,
+   tx_mem_1_clr,
+
+   mci_ctrl,
+   tx_mem_wr,
+   tx_mem_wr_addr,
+   tx_mem_wr_data,
+   
+   rcv_new_frame_en_rx,
+   rcv_new_frame_en_clr_app,
+   rx_mem_rd,
+   rx_mem_rd_addr,
+   frame_rd_over_en_pedge
+);
+
+//protect_encode_begin
+`pragma protect begin_protected
+`pragma protect version=1
+`pragma protect data_block
+qbsbnfufs!CBTF`BEES!>!43(ib111`1111<qbsbnfufs!EBUB`BDDFTT`VTF`NDV!>!2<!!qbsbnfufs!NBD`DGH`CBTF!!!!!!>!5(i1<qbsbnfufs!NBD`GSNGU`CBTF!!!!>!5(i2<qbsbnfufs!HNJJ`BEES`CBTF!!!!>!5(i3<qbsbnfufs!HNJJ`EBUB`CBTF!!!!>!5(i4<qbsbnfufs!GMPX`DUSM`CBTF!!!!>!5(i5<qbsbnfufs!WMBO`UBH`CBTF!!!!!>!5(i6<qbsbnfufs!NBD`ECH`CBTF!!!!!!>!5(i7<qbsbnfufs!NBD`BEESI`CBTF!!!!>!5(i8<qbsbnfufs!NBD`BEESM`CBTF!!!!>!5(i9<qbsbnfufs!NBD`XEH`CBTF!!!!!!>!5(i:<qbsbnfufs!NDJ`NBD`DGH!!!!!!!>!25(i1111<qbsbnfufs!NDJ`NBD`GSNGU1!!!!>!25(i1115<qbsbnfufs!NDJ`HNJJ`BEES1!!!!>!25(i1121<qbsbnfufs!NDJ`HNJJ`EBUB1!!!!>!25(i1125<qbsbnfufs!NDJ`GMPX`DUSM1!!!!>!25(i1129<qbsbnfufs!NDJ`WMBO`UBH1!!!!!>!25(i112D<qbsbnfufs!NDJ`NBD`ECH1!!!!!!>!25(i1135<qbsbnfufs!NDJ`NBD`BEESI1!!!!>!25(i1151<qbsbnfufs!NDJ`NBD`BEESM1!!!!>!25(i1155<qbsbnfufs!NDJ`NBD`XEH1!!!!!!>!25(i11ED<qbsbnfufs!NFN`DUSM`DGH!!!!!!>!4(i1<!!!!!qbsbnfufs!NFN`DUSM`TUBU!!!!!>!4(i2<!!!!!qbsbnfufs!NFN`DUSM`UY`TUBU!!>!4(i3<qbsbnfufs!NFN`DUSM`SY`MFO!!!>!4(i4<qbsbnfufs!NFN`DUSM`SY`TUBU!!>!4(i5<joqvu!dml`bqq`j-!stu`dml`bqq`o<joqvu!!!!!!!!!gq1`t`bic`tfm<joqvu!!\42;1^!gq1`t`bic`bees<joqvu!!!!!!!!!gq1`t`bic`xsjuf<joqvu!!\2;1^!!gq1`t`bic`usbot<joqvu!!\42;1^!gq1`t`bic`xebub<pvuqvu!!!!!!!!gq1`t`bic`sfbezpvu<pvuqvu!\42;1^!gq1`t`bic`sebub<pvuqvu!!!!!!!!jsr<joqvu!!!!!!!!!!!!ndj`bdl`j<!!!!!!!joqvu!\42;1^!!!!!ndj`sebub`j<!!!!!joqvu!!!!!!!!!!!!ndj`jous`j<!!!!!!pvuqvu!!!!!!!!!!!ndj`wbm`p<!!!!!!!pvuqvu!!\24;1^!!!ndj`bees`p<!!!!!!pvuqvu!!!!!!!!!!!ndj`sexso`p<!!!!!pvuqvu!!\42;1^!!!ndj`xebub`p<!!!!!pvuqvu!!\4;1^!!!!ndj`cf`p<!!!!!!!!pvuqvu!!!!!!!!uy`nfn`xs<pvuqvu!\42;1^!uy`nfn`xs`ebub<pvuqvu!\9;1^!!uy`nfn`xs`bees<pvuqvu!!!!!!!!sy`nfn`se<pvuqvu!\9;1^!!sy`nfn`se`bees<joqvu!!\42;1^!sy`nfn`se`ebub<joqvu!!\21;1^!sy`mfo<joqvu!!sy`nfn`se`bdl<joqvu!!uy`nfn`1`dms<joqvu!!uy`nfn`2`dms<pvuqvu!\8;1^!!ndj`dusm<!!!!!!joqvu!!dms`sy`nfn`fnquz`tubu<joqvu!!\6;1^!!uy`tubu<joqvu!!uy`tubu`wbm`j<joqvu!!\8;1^!!sy`tubu<joqvu!!sdw`ofx`gsbnf`fo`sy<pvuqvu!sdw`ofx`gsbnf`fo`dms`bqq<pvuqvu!gsbnf`se`pwfs`fo`qfehf<xjsf!\42;1^!!gq1`t`bic`sebub<sfh!!!!!!!!!!gq1`t`bic`sfbezpvu<sfh!!!!!!!!!!ndj`wbm`p<!!!!!!!sfh!!\24;1^!!ndj`bees`p<!!!!!sfh!!!!!!!!!!ndj`sexso`p<!!!sfh!!\8;1^!!!nfn`dusm`dgh<sfh!!\8;1^!!!nfn`dusm`tubu<sfh!!\21;1^!!nfn`dusm`sy`mfo<sfh!!nfnxs`e<sfh!!uy`nfn`xs<xjsf!\42;1^!uy`nfn`xs`ebub<sfh!!\9;1^!!uy`nfn`xs`bees<xjsf!!!!!!!!sy`nfn`se<xjsf!\9;1^!!sy`nfn`se`bees<sfh!!jsr`fo<sfh!!bic`xs`fo<sfh!!bees`iju`nfn`dusm`e2<xjsf!sy`nfn`se`fo<xjsf!bees`iju`uy`nfn<xjsf!bees`iju`sy`nfn<xjsf!bees`iju`ndj`dusm<xjsf!bees`iju`nfn`dusm<sfh!!uy`nfn`1`dms`bqq`e2<sfh!!uy`nfn`1`dms`bqq`e3<sfh!!uy`nfn`2`dms`bqq`e2<sfh!!uy`nfn`2`dms`bqq`e3<sfh!!gsbnf`se`pwfs`fo<sfh!!gsbnf`se`pwfs`fo`e2<xjsf!sdw`ofx`gsbnf`fo`bqq!<sfh!!\3;1^!!sdw`nfn`gsbnf`dou<sfh!!\3;1^!!bic`bees`tfm<xjsf!sdw`nfn`fnquz`gmbh<xjsf!gsbnf`se`pwfs`fo`qfehf<xjsf!bic`bddftt`fo<xjsf!bees`iju`cbtf<xjsf!!!!!!!!gq1`t`bic`tfm`t<xjsf!\42;1^!gq1`t`bic`bees`t<xjsf!\42;1^!gq1`t`bic`xebub`t<xjsf!!!!!!!!gq1`t`bic`xsjuf`t<xjsf!\2;1^!!gq1`t`bic`usbot`t<sfh!!\2;1^!!nfn`tqbdf`tfm<xjsf!\42;1^!nfn`dusm`ufnq<sfh!!!!!!!!!sdw`ofx`gsbnf`fo`bqq`e2<sfh!!!!!!!!!sdw`ofx`gsbnf`fo`bqq`e3<sfh!!!!!!!!!sdw`ofx`gsbnf`fo`bqq`e4<bttjho!gq1`t`bic`tfm`t!>!gq1`t`bic`tfm<bttjho!gq1`t`bic`xsjuf`t!>!gq1`t`bic`xsjuf<bttjho!gq1`t`bic`bees`t!>!gq1`t`bic`bees<bttjho!gq1`t`bic`xebub`t!>!gq1`t`bic`xebub<bttjho!gq1`t`bic`usbot`t!>!gq1`t`bic`usbot<bttjho!jsr!>!)sdw`nfn`fnquz`gmbh*!'!jsr`fo<bttjho!bees`iju`cbtf!>!)gq1`t`bic`bees`t\42;24^!>>!CBTF`BEES\42;24^*<bttjho!bees`iju`uy`nfn!>!bees`iju`cbtf!'!)gq1`t`bic`bees`t\23;22^>>3(c11*<bttjho!bees`iju`sy`nfn!>!bees`iju`cbtf!'!)gq1`t`bic`bees`t\23;22^>>3(c12*<bttjho!bees`iju`ndj`dusm!>!bees`iju`cbtf!'!)gq1`t`bic`bees`t\23;22^>>3(c21*!'!)gq1`t`bic`bees`t\7^*<bttjho!bees`iju`nfn`dusm!>!bees`iju`cbtf!'!)gq1`t`bic`bees`t\23;22^>>3(c21*!'!gq1`t`bic`bees`t\7^<bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!!bees`iju`nfn`dusm`e2!=>!1<fmtf!!!bees`iju`nfn`dusm`e2!=>!bees`iju`nfn`dusm<
+foebttjho!bic`bddftt`fo!>!)gq1`t`bic`usbot`t\2^!>>!2(c2*!'!bees`iju`cbtf<bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!!bic`xs`fo!=>!1<fmtf!jg)gq1`t`bic`xsjuf`t!'!gq1`t`bic`tfm`t!'!bic`bddftt`fo*!!!!bic`xs`fo!=>!2<fmtf!!!bic`xs`fo!=>!1<
+foebmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!gq1`t`bic`sfbezpvu!=>!2<fmtf!jg)bic`bddftt`fo!'!bees`iju`ndj`dusm*!!!gq1`t`bic`sfbezpvu!=>!1<fmtf!jg)ndj`bdl`j*!!!gq1`t`bic`sfbezpvu!=>!2<foebmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!ndj`wbm`p!=>!1<fmtf!cfhjo!!!jg)ndj`bdl`j*!!!!!!!ndj`wbm`p!=>!1<!!!fmtf!jg)bees`iju`ndj`dusm!'!bic`bddftt`fo*!!!!!!!ndj`wbm`p!=>!2<!!!foefoebmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!ndj`sexso`p!=>!1<fmtf!jg)bees`iju`ndj`dusm!'!bic`bddftt`fo*!cfhjo!!!jg)gq1`t`bic`xsjuf`t*!!!!!!!ndj`sexso`p!=>!1<!!!fmtf!!!!!!!!ndj`sexso`p!=>!2<!!!foefoebttjho!ndj`cf`p!>!5(ig<bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!ndj`bees`p!=>!1<fmtf!jg)bic`bddftt`fo!'!bees`iju`ndj`dusm*!!!!dbtf)gq1`t`bic`bees`t\6;3^*!!!!!!NBD`DGH`CBTF!;!!!!!!ndj`bees`p!=>!NDJ`NBD`DGH<!!!!!!NBD`GSNGU`CBTF!;!!!!ndj`bees`p!=>!NDJ`NBD`GSNGU1!<!!!!!!HNJJ`BEES`CBTF!;!!!!ndj`bees`p!=>!NDJ`HNJJ`BEES1!<!!!!!!HNJJ`EBUB`CBTF!;!!!!ndj`bees`p!=>!NDJ`HNJJ`EBUB1!<!!!!!!GMPX`DUSM`CBTF!;!!!!ndj`bees`p!=>!NDJ`GMPX`DUSM1!<!!!!!!WMBO`UBH`CBTF!;!!!!!ndj`bees`p!=>!NDJ`WMBO`UBH1!!<!!!!!!NBD`ECH`CBTF!;!!!!!!ndj`bees`p!=>!NDJ`NBD`ECH1!!!<!!!!!!NBD`BEESI`CBTF!;!!!!ndj`bees`p!=>!NDJ`NBD`BEESI1!<!!!!!!NBD`BEESM`CBTF!;!!!!ndj`bees`p!=>!NDJ`NBD`BEESM1!<!!!!!!NBD`XEH`CBTF!;!!!!!!ndj`bees`p!=>!NDJ`NBD`XEH1!!!<!!!!!!efgbvmu;!!!!!!!!!!!!ndj`bees`p!=>!1<!!!foedbtffoebttjho!ndj`xebub`p!>!gq1`t`bic`xebub`t<bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!!nfn`tqbdf`tfm!=>!3(i1<fmtf!jg)gq1`t`bic`usbot`t\2^*!!!jg)bees`iju`sy`nfn*!!!!!!nfn`tqbdf`tfm!=>!3(i2<!!!fmtf!jg)bees`iju`ndj`dusm*!!!!!!nfn`tqbdf`tfm!=>!3(i3<!!!fmtf!jg)bees`iju`nfn`dusm*!!!!!!nfn`tqbdf`tfm!=>!3(i4<foebttjho!nfn`dusm`ufnq!>!)bic`bees`tfm!>>!NFN`DUSM`TUBU*!@!|37(c1-)sdw`nfn`fnquz`gmbh*-nfn`dusm`dgh\5;1^~!;!!!!!!!!!!!!!!!!!!!!!!!)bic`bees`tfm!>>!NFN`DUSM`UY`TUBU*!@!|37(c1-uy`tubu~!;!!!!!!!!!!!!!!!!!!!!!!!)bic`bees`tfm!>>!NFN`DUSM`SY`MFO*!@!|32(c1-nfn`dusm`sy`mfo~!;!!!!!!!!!!!!!!!!!!!!!!!)bic`bees`tfm!>>!NFN`DUSM`SY`TUBU*!@!|35(c1-sy`tubu\8;1^~!;!!!!!!!!!!!!!!!!!!!!!!!43(i1<bttjho!gq1`t`bic`sebub!>!)nfn`tqbdf`tfm!>>!3(i2*!@!sy`nfn`se`ebub!;!!!!!!!!!!!!!!!!!!!!!!!!!)nfn`tqbdf`tfm!>>!3(i3*!@!ndj`sebub`j!;!!!!!!!!!!!!!!!!!!!!!!!!!)nfn`tqbdf`tfm!>>!3(i4*!@!nfn`dusm`ufnq!;!!!!!!!!!!!!!!!!!!!!!!!!!43(i1<hfofsbuf!jg!)EBUB`BDDFTT`VTF`NDV*!cfhjo!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!|uy`nfn`1`dms`bqq`e3-uy`nfn`1`dms`bqq`e2~!=>!1<!!!fmtf!!!!!!|uy`nfn`1`dms`bqq`e3-uy`nfn`1`dms`bqq`e2~!=>!|uy`nfn`1`dms`bqq`e2-uy`nfn`1`dms~<!!!foe!!!!!!!!!!!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!|uy`nfn`2`dms`bqq`e3-uy`nfn`2`dms`bqq`e2~!=>!1<!!!fmtf!!!!!!|uy`nfn`2`dms`bqq`e3-uy`nfn`2`dms`bqq`e2~!=>!|uy`nfn`2`dms`bqq`e2-uy`nfn`2`dms~<!!!foe!!!!!!!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!|sdw`ofx`gsbnf`fo`bqq`e3-sdw`ofx`gsbnf`fo`bqq`e2~!=>!1<!!!fmtf!!!!!!|sdw`ofx`gsbnf`fo`bqq`e3-sdw`ofx`gsbnf`fo`bqq`e2~!=>!|sdw`ofx`gsbnf`fo`bqq`e2-sdw`ofx`gsbnf`fo`sy~<!!!foe!foefoehfofsbufhfofsbuf!jg!)EBUB`BDDFTT`VTF`NDV*!cfhjo!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!sdw`ofx`gsbnf`fo`bqq`e4!=>!1<!!!fmtf!!!!!!sdw`ofx`gsbnf`fo`bqq`e4!=>!sdw`ofx`gsbnf`fo`bqq`e3!<!!!foe!!!!!!bttjho!sdw`ofx`gsbnf`fo`bqq!>!sdw`ofx`gsbnf`fo`bqq`e3!'!)sdw`ofx`gsbnf`fo`bqq`e4*<!!!!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!gsbnf`se`pwfs`fo`e2!=>!1<!!!fmtf!!!!!!gsbnf`se`pwfs`fo`e2!=>!gsbnf`se`pwfs`fo!<!!!foe!!!!!!bttjho!gsbnf`se`pwfs`fo`qfehf!>!)gsbnf`se`pwfs`fo`e2*!'!gsbnf`se`pwfs`fo<!!!!!!bmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!sdw`nfn`gsbnf`dou!=>!1<!!!fmtf!jg)sdw`ofx`gsbnf`fo`bqq!'!gsbnf`se`pwfs`fo`qfehf*!!!!!!!!!sdw`nfn`gsbnf`dou!=>!sdw`nfn`gsbnf`dou<!!!fmtf!jg)sdw`ofx`gsbnf`fo`bqq*!!!!!!sdw`nfn`gsbnf`dou!=>!sdw`nfn`gsbnf`dou!,!2<!!!fmtf!jg)gsbnf`se`pwfs`fo`qfehf*!!!!!!sdw`nfn`gsbnf`dou!=>!sdw`nfn`gsbnf`dou!.!2<!!!foe!!!!!!bttjho!sdw`nfn`fnquz`gmbh!>!)sdw`nfn`gsbnf`dou!>>!1*<!!!bttjho!sdw`ofx`gsbnf`fo`dms`bqq!>!sdw`ofx`gsbnf`fo`bqq`e3<foefoehfofsbufbmxbzt!A)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!!bic`bees`tfm!=>!1<fmtf!jg)gq1`t`bic`usbot`t\2^*!!!bic`bees`tfm!=>!gq1`t`bic`bees`t\5;3^<
+foebmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjojg)stu`dml`bqq`o*!!!nfn`dusm`dgh\2;1^!=>!1<fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`TUBU*!'!bic`xs`fo*!!!nfn`dusm`dgh\2;1^!=>!gq1`t`bic`xebub`t\2;1^<foehfofsbuf!jg!)EBUB`BDDFTT`VTF`NDV*!cfhjo!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!jsr`fo!=>!1<!!!fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`TUBU*!'!bic`xs`fo*!!!!!!jsr`fo!=>!gq1`t`bic`xebub`t\8^<!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!nfn`dusm`dgh\5^!=>!1<!!!fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`TUBU*!'!bic`xs`fo*!!!!!!nfn`dusm`dgh\5^!=>!gq1`t`bic`xebub`t\5^<!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!nfn`dusm`dgh\3^!=>!2(c1<!!!fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`DGH*!'!bic`xs`fo!'!)gq1`t`bic`xebub`t\8;5^>>5(i4**!!!!!!nfn`dusm`dgh\3^!=>!2(c2<!!!fmtf!jg)uy`nfn`1`dms`bqq`e3*!!!!!!!nfn`dusm`dgh\3^!=>!2(c1<!!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!nfn`dusm`dgh\4^!=>!2(c1<!!!fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`DGH*!'!bic`xs`fo!'!)gq1`t`bic`xebub`t\8;5^>>5(i5**!!!!!!nfn`dusm`dgh\4^!=>!2(c2<!!!fmtf!jg)uy`nfn`2`dms`bqq`e3*!!!!!!!nfn`dusm`dgh\4^!=>!2(c1<!!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!gsbnf`se`pwfs`fo!=>!2(c1<!!!fmtf!jg)bees`iju`nfn`dusm`e2!'!)bic`bees`tfm!>>!NFN`DUSM`DGH*!'!bic`xs`fo!'!)gq1`t`bic`xebub`t\8;5^>>5(i6**!!!!!!gsbnf`se`pwfs`fo!=>!2(c2<!!!fmtf!!!!!!!!gsbnf`se`pwfs`fo!=>!2(c1<!!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j!ps!ofhfehf!stu`dml`bqq`o*!cfhjo!!!jg)stu`dml`bqq`o*!!!!!!nfn`dusm`sy`mfo!=>!1<!!!fmtf!!!!!!!nfn`dusm`sy`mfo!=>!sy`mfo<!!!foefoefoehfofsbufhfofsbuf!jg!)EBUB`BDDFTT`VTF`NDV*!cfhjo!!!bmxbzt!A!)qptfehf!dml`bqq`j*!cfhjo!!!jg))gq1`t`bic`usbot`t\2^!>>!2(c2*!'!bees`iju`uy`nfn!'!gq1`t`bic`xsjuf`t*!!!!!!uy`nfn`xs!=>!2(c2<!!!fmtf!!!!!!uy`nfn`xs!=>!2(c1<!!!foe!!!!!!bmxbzt!A!)qptfehf!dml`bqq`j*!cfhjo!!!!!!!uy`nfn`xs`bees!=>!gq1`t`bic`bees`t\21;3^<!!!foe!!!bttjho!uy`nfn`xs`ebub!>!gq1`t`bic`xebub`t<foefoehfofsbufhfofsbuf!jg!)EBUB`BDDFTT`VTF`NDV*!cfhjo!!!bttjho!sy`nfn`se`fo!!!>!bees`iju`sy`nfn!'!)gq1`t`bic`xsjuf`t*!'!gq1`t`bic`usbot`t\2^<!!!bttjho!sy`nfn`se`bees!>!gq1`t`bic`bees`t\21;3^<!!!bttjho!sy`nfn`se!>!sy`nfn`se`fo<foefoehfofsbufbttjho!ndj`dusm!>!nfn`dusm`dgh<
+`pragma protect end_protected
+//protect_encode_end
+
+endmodule
