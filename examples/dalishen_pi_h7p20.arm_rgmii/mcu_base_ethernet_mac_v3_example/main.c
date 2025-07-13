@@ -11,12 +11,12 @@
 #define RAM			  ((RAM_TYPE *)RAM_BASE)
 #define RAM_TEST_SIZE    256
 #define SRC_MAC_ADDR_BD  0xDA0102030405    //default src mac addr 0xDA0102030405
-#define DEST_MAC_ADDR_BD 0x6C3C8A2A5359    //default dest mac addr 0x6C3C8A2A5359
+#define DEST_MAC_ADDR_BD 0x00E04CA80352    //default dest mac addr, !!! Yor PC MAC
 #define SRC_IP_ADDR_BD   0xC0A8010B        //default src ip addr 0xC0A8010B
 #define DEST_IP_ADDR_BD  0xC0A8010A        //default dest ip addr 0xC0A8010A
 
 #define SRC_MAC_ADDR_LD  0x0504030201DA
-#define DEST_MAC_ADDR_LD 0x59532A8C3C6C 
+#define DEST_MAC_ADDR_LD 0x5203A84CE000		// base DEST_MAC_ADDR_BD
 #define SRC_IP_ADDR_LD   0x0B01A8C0
 #define DEST_IP_ADDR_LD  0x0A01A8C0 
 
@@ -284,7 +284,7 @@ void PhyConfig(uint32_t BASE_ADDR)
 	
 	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x0000A001);   //PHY0 Config data  //1.8V
 		RAM_REG_WORD_WRITE(BASE_ADDR, 0x00001008, 0x00001E87);   //PHY0 Config addr  phy0_addr 0x01  phy1_addr 0x03
-	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x00000130);   //PHY0 Config data  
+	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x00000100);   //PHY0 Config data  
 		RAM_REG_WORD_WRITE(BASE_ADDR, 0x00001008, 0x00001F87);   //PHY0 Config addr      
 	
 	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x0000A003);   //PHY0 Config data  
@@ -349,7 +349,7 @@ void PhyConfig(uint32_t BASE_ADDR)
 		
     RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x0000A001);   //PHY0 Config data  //1.8V
 		RAM_REG_WORD_WRITE(BASE_ADDR, 0x00001008, 0x00000E87);   //PHY0 Config addr  phy0_addr 0x01  phy1_addr 0x03
-	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x00000130);   //PHY0 Config data  
+	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x00000100);   //PHY0 Config data  
 		RAM_REG_WORD_WRITE(BASE_ADDR, 0x00001008, 0x00000F87);   //PHY0 Config addr      
 	
 	  RAM_REG_WORD_WRITE(BASE_ADDR, 0x0000100C, 0x0000A003);   //PHY0 Config data  
