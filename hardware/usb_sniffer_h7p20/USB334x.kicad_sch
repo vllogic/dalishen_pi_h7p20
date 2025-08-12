@@ -1443,214 +1443,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal_GND24_Small"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 1.27 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND24_Small"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND24_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND24_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1896,7 +1688,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "vllogic:QFN20C_2x2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2401,6 +2193,10 @@
 		(color 0 0 0 0)
 		(uuid "ec726c48-543f-49b7-8048-e895ae1385a4")
 	)
+	(no_connect
+		(at 207.01 97.79)
+		(uuid "659c4f4d-f105-479e-9b8b-07af578d6117")
+	)
 	(wire
 		(pts
 			(xy 50.8 193.04) (xy 52.07 193.04)
@@ -2683,16 +2479,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c67efd4-4310-4902-933d-a9f02399f6b3")
-	)
-	(wire
-		(pts
 			(xy 207.01 50.8) (xy 207.01 67.31)
 		)
 		(stroke
@@ -2700,16 +2486,6 @@
 			(type default)
 		)
 		(uuid "603d49a2-a2aa-45ed-b7a5-6c4f4d24a645")
-	)
-	(wire
-		(pts
-			(xy 207.01 97.79) (xy 207.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60499ebf-9369-439c-a52e-c9de45c29d7c")
 	)
 	(wire
 		(pts
@@ -2923,6 +2699,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 97.79) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d405010-f424-40cb-ba2e-7af3a010187c")
+	)
+	(wire
+		(pts
 			(xy 40.64 119.38) (xy 52.07 119.38)
 		)
 		(stroke
@@ -2940,16 +2726,6 @@
 			(type default)
 		)
 		(uuid "a0fbe913-20db-4d32-bfd3-efe9323d7558")
-	)
-	(wire
-		(pts
-			(xy 186.69 104.14) (xy 191.77 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4618516-1998-4333-9ccc-96aabfc7c3c1")
 	)
 	(wire
 		(pts
@@ -3140,16 +2916,6 @@
 			(type default)
 		)
 		(uuid "da12d97b-e224-4aed-b96b-b9d89b4e0e2c")
-	)
-	(wire
-		(pts
-			(xy 209.55 97.79) (xy 209.55 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf8d9a8-ddce-4b87-bb92-b168483d03ca")
 	)
 	(wire
 		(pts
@@ -3351,16 +3117,6 @@
 		)
 		(uuid "35159a06-ab34-433d-a1c0-16cb2d395d20")
 	)
-	(label "XO"
-		(at 186.69 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b69738b-8162-4b93-a9a8-a2a71a170c26")
-	)
 	(label "USB334x_CLK"
 		(at 204.47 114.3 90)
 		(effects
@@ -3441,6 +3197,16 @@
 		)
 		(uuid "6b1a0a0c-4bb3-4cc1-aa56-9730fd2283ed")
 	)
+	(label "GND"
+		(at 209.55 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c2b5d53-1241-452f-8e5d-9585a6397d59")
+	)
 	(label "CMP_REF_3"
 		(at 24.13 96.52 0)
 		(effects
@@ -3450,16 +3216,6 @@
 			(justify left bottom)
 		)
 		(uuid "7280063c-172a-4c7f-8a58-030c6337a401")
-	)
-	(label "XI"
-		(at 176.53 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74794ad5-3b58-45c5-b544-a2688a244421")
 	)
 	(label "USB334x_D0"
 		(at 212.09 114.3 90)
@@ -3541,16 +3297,6 @@
 		)
 		(uuid "989149a8-86b6-461e-8621-3ed29db85be8")
 	)
-	(label "XO"
-		(at 207.01 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9eb242f2-358d-4a47-bf2e-dc5de779986f")
-	)
 	(label "USB334x_D6"
 		(at 223.52 76.2 0)
 		(effects
@@ -3570,16 +3316,6 @@
 			(justify left bottom)
 		)
 		(uuid "a9643fe4-93e8-4703-968e-5aa8630dafc0")
-	)
-	(label "XI"
-		(at 209.55 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae7aec68-1cae-4f60-b460-041048047fac")
 	)
 	(label "CMP_REF_2"
 		(at 24.13 106.68 0)
@@ -3890,70 +3626,6 @@
 			(justify left)
 		)
 		(uuid "fe5a606f-0f72-451c-bb27-0c945a7be35a")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e362b00-aa75-4c9d-9b52-0357878796b2")
-		(property "Reference" "#PWR017"
-			(at 162.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 164.5158 104.267 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "679c36bd-01ba-4b7e-81c2-73074501c7af")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4606,70 +4278,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ac794b9-c8ff-48f4-bb74-a9562387adb2")
-		(property "Reference" "#PWR01"
-			(at 184.15 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.023 97.2058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62b63417-c0d0-4e71-9e1f-9a3552aed4b4")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 24.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4727,80 +4335,6 @@
 			(project "usb_sniffer_h7p20"
 				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24_Small")
-		(at 184.15 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59e52ee9-fa0c-4923-a58e-10db269768bb")
-		(property "Reference" "Y1"
-			(at 179.705 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12M,NC"
-			(at 186.055 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "vllogic:OSC_3225"
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c09061bf-7500-4ea6-9762-d60ce275062e")
-		)
-		(pin "2"
-			(uuid "7ce8c4a4-bc22-4633-a138-e21a975ff295")
-		)
-		(pin "3"
-			(uuid "36338a61-d440-4330-a07b-49fae2f7d2a5")
-		)
-		(pin "4"
-			(uuid "b2ffcbde-162d-4396-992f-c4dd8ef111b6")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5698,73 +5232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bed93aeb-c1ca-4104-8507-adfe854666e2")
-		(property "Reference" "R10"
-			(at 172.72 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 172.72 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 172.72 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4540af2c-f913-452a-806d-05bd6b1ae7b8")
-		)
-		(pin "1"
-			(uuid "fc0565f0-5718-4205-8a0c-7d0f1c3b54c4")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM2903")
 		(at 59.69 104.14 0)
 		(unit 3)
@@ -6184,7 +5651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "vllogic:QFN20C_2x2"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -6278,70 +5745,6 @@
 			(project ""
 				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb6ccf38-9b2a-460a-aad4-b09a90772e41")
-		(property "Reference" "#PWR03"
-			(at 184.15 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.277 111.0742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "055f6397-6ab7-4527-a60b-62755b2b3398")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

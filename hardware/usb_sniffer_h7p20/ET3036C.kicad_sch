@@ -3091,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vllogic:L_NR3015"
+		(property "Footprint" "vllogic:L_NR2520xx"
 			(at 168.91 101.6 0)
 			(effects
 				(font
