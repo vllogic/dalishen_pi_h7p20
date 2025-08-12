@@ -17,6 +17,8 @@
 		<IO signal_name="o_rgmii_txd_1_" pad_name="C8R0_PAD" location="IO8_4" pin_no="69" inst_name="rgmii_v1_u_tx_genblk1_1__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
 		<IO signal_name="o_rgmii_txd_2_" pad_name="C9R0_PAD" location="IO9_4" pin_no="71" inst_name="rgmii_v1_u_tx_genblk1_2__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
 		<IO signal_name="o_rgmii_txd_3_" pad_name="C10R0_PAD" location="IO10_4" pin_no="72" inst_name="rgmii_v1_u_tx_genblk1_3__U_DDRIO_OUT_DATA_i_pad" direction="output" operation_mode="normal"/>
+		<IO signal_name="uart_rx" pad_name="io24_clk1" location="IO24_GCLK_1" pin_no="108" inst_name="io_uart_rx_inst" direction="input" operation_mode="normal"/>
+		<IO signal_name="uart_tx" pad_name="io25_dmux9_clk2" location="IO25_GCLK_2" pin_no="106" inst_name="io_uart_tx_inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="usb334x_clk_60m" pad_name="C37R0_PAD" location="IO13_GCLK_3" pin_no="92" inst_name="io_usb334x_clk_60m_inst" direction="input" operation_mode="clock"/>
 	</ioConstraint>
 </aoc>

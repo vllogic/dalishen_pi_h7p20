@@ -16,5 +16,6 @@
         <file>$(PRJ_DIR)/src/pll_v1.v</file>
         <file>$(PRJ_DIR)/src/top.sdc</file>
         <file>$(PRJ_DIR)/src/mdio_interface.v</file>
+        <file>$(PRJ_DIR)/top.aoc</file>
     </files>
 </AgateProject>

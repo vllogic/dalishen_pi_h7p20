@@ -2,6 +2,9 @@
 
 
 module top (
+    input  uart_rx,
+    output uart_tx,
+
     input usb334x_clk_60m,
 
     output [3:0] o_rgmii_txd,
@@ -205,8 +208,8 @@ soc_system_v1 soc_system_v1_inst (
     .u_m3soc_uart0_out1_n_o         (),
     .u_m3soc_uart0_out2_n_o         (),
     .u_m3soc_uart0_rts_n_o          (),
-    .u_m3soc_uart0_sin_i            (),
-    .u_m3soc_uart0_sout_o           (),
+    .u_m3soc_uart0_sin_i            (uart_rx),
+    .u_m3soc_uart0_sout_o           (uart_tx),
     .u_m3soc_uart0_sir_in_i         (),
     .u_m3soc_uart0_sir_out_n_o      (),
     .u_m3soc_uart0_baudout_n_o      (),
