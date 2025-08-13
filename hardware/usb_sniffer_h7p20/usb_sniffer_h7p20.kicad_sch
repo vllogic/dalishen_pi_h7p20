@@ -20385,7 +20385,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k,1%"
+		(property "Value" "10k,1%"
 			(at 132.08 49.53 90)
 			(effects
 				(font
