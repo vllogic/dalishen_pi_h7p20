@@ -4,8 +4,7 @@
 `timescale 1ns / 1ps
 
 module usb_sniffer (
-  output        t_usb_refclk_o,
-  input         t_usb_clk_i,
+  output        t_usb_clk_o,    // output ulpi 60M
   output        t_usb_stp_o,
   input         t_usb_dir_i,
   input         t_usb_nxt_i,
@@ -33,12 +32,20 @@ module usb_sniffer (
 
   input         jtagen_i,
 
+  output        led_red,
+  output        led_green,
+  output        led_blue,
+
   output  [6:0] spare_o,
   output  [3:0] dbg_o
 );
 
+assign led_red = 1'b1;
+assign led_green = 1'b0;
+assign led_blue = 1'b1;
+
 //-----------------------------------------------------------------------------
-wire clk_i = t_usb_clk_i;
+wire clk_i = t_usb_clk_o;
 
 //-----------------------------------------------------------------------------
 reg [1:0] trigger_r;
@@ -80,7 +87,7 @@ wire [15:0] ctrl_w;
 pll_v1 pll_v1_inst (
   .clkin0(clkout_i),
   .locked(),
-  .clkout0(t_usb_refclk_o)
+  .clkout0(t_usb_clk_o)
 );
 
 ctrl ctrl_inst (
@@ -103,7 +110,7 @@ wire       capture_ack_w;
 usb_capture usb_capture_inst (
   .reset_i         (reset_w),
 
-  .usb_clk_i       (t_usb_clk_i),
+  .usb_clk_i       (t_usb_clk_o),
   .usb_stp_o       (t_usb_stp_o),
   .usb_dir_i       (t_usb_dir_i),
   .usb_nxt_i       (t_usb_nxt_i),
