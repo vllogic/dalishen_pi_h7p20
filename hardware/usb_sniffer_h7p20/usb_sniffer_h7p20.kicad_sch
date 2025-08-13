@@ -14755,7 +14755,7 @@
 		(uuid "314ee8bc-76ed-43be-806f-29587802d03b")
 	)
 	(label "IN"
-		(at 246.38 125.73 0)
+		(at 246.38 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15385,7 +15385,7 @@
 		(uuid "6cecfcc9-bcd6-48b8-bc07-50a43f9237ab")
 	)
 	(label "USB334x_NXT"
-		(at 246.38 120.65 0)
+		(at 224.79 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15445,7 +15445,7 @@
 		(uuid "725242c5-a789-4af7-b158-e8890b889ca8")
 	)
 	(label "USB334x_STP"
-		(at 224.79 96.52 90)
+		(at 227.33 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15935,7 +15935,7 @@
 		(uuid "a06c3512-33ff-43c7-9357-fe8221f4cfc1")
 	)
 	(label "USB334x_D3"
-		(at 246.38 128.27 0)
+		(at 246.38 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16145,7 +16145,7 @@
 		(uuid "b5d77031-a6ef-4861-909d-53a31b2aab43")
 	)
 	(label "USB334x_DIR"
-		(at 227.33 96.52 90)
+		(at 246.38 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16195,7 +16195,7 @@
 		(uuid "bb422b73-1e45-49b1-857f-9e985142e334")
 	)
 	(label "USB334x_D4"
-		(at 246.38 130.81 0)
+		(at 246.38 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16395,7 +16395,7 @@
 		(uuid "cd1b1b4f-91ce-45b8-b5e4-f986880e9aa9")
 	)
 	(label "USB334x_D0"
-		(at 246.38 118.11 0)
+		(at 246.38 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
