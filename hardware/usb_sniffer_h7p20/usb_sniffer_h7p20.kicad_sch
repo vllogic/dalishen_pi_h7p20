@@ -9790,6 +9790,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 31.75) (xy 367.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d78d2e-9b02-4c0a-9006-74e7dca65f4b")
+	)
+	(wire
+		(pts
 			(xy 281.94 223.52) (xy 293.37 223.52)
 		)
 		(stroke
@@ -14754,8 +14764,18 @@
 		)
 		(uuid "314ee8bc-76ed-43be-806f-29587802d03b")
 	)
+	(label "FPGA_OUT_26M"
+		(at 350.52 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31d8cb89-8da2-4199-b518-bd029887c171")
+	)
 	(label "IN"
-		(at 246.38 130.81 0)
+		(at 246.38 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14853,6 +14873,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b80b342-32e8-4b07-8a4b-a3682567686a")
+	)
+	(label "FPGA_OUT_26M"
+		(at 212.09 96.52 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b9febbc-8e1e-4bb9-b501-fa3caf9c5403")
 	)
 	(label "B10_IO12P"
 		(at 194.31 224.79 90)
@@ -15385,7 +15415,7 @@
 		(uuid "6cecfcc9-bcd6-48b8-bc07-50a43f9237ab")
 	)
 	(label "USB334x_NXT"
-		(at 224.79 96.52 90)
+		(at 246.38 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15445,7 +15475,7 @@
 		(uuid "725242c5-a789-4af7-b158-e8890b889ca8")
 	)
 	(label "USB334x_STP"
-		(at 227.33 96.52 90)
+		(at 224.79 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15935,7 +15965,7 @@
 		(uuid "a06c3512-33ff-43c7-9357-fe8221f4cfc1")
 	)
 	(label "USB334x_D3"
-		(at 246.38 118.11 0)
+		(at 246.38 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16145,7 +16175,7 @@
 		(uuid "b5d77031-a6ef-4861-909d-53a31b2aab43")
 	)
 	(label "USB334x_DIR"
-		(at 246.38 125.73 0)
+		(at 227.33 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16195,7 +16225,7 @@
 		(uuid "bb422b73-1e45-49b1-857f-9e985142e334")
 	)
 	(label "USB334x_D4"
-		(at 246.38 128.27 0)
+		(at 246.38 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16395,7 +16425,7 @@
 		(uuid "cd1b1b4f-91ce-45b8-b5e4-f986880e9aa9")
 	)
 	(label "USB334x_D0"
-		(at 246.38 120.65 0)
+		(at 246.38 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20900,7 +20930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 212.09 80.01 0)
+		(at 209.55 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20908,7 +20938,7 @@
 		(dnp no)
 		(uuid "80663e1d-7482-4574-9977-8090fb61d2c0")
 		(property "Reference" "TP18"
-			(at 212.09 76.2 90)
+			(at 209.55 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20917,7 +20947,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 213.36 74.93 90)
+			(at 210.82 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20927,7 +20957,7 @@
 			)
 		)
 		(property "Footprint" "vllogic:TestPoint_Pad_D0.3mm"
-			(at 217.17 80.01 0)
+			(at 214.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20936,7 +20966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 80.01 0)
+			(at 214.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20945,7 +20975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 80.01 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25229,6 +25259,16 @@
 		(pin "VCC_5V" output
 			(at 367.03 26.67 180)
 			(uuid "99a953aa-41cb-4ca6-a727-1408b5139c7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB334x_26M" input
+			(at 367.03 31.75 180)
+			(uuid "d5135b74-91b4-4bab-842d-ce20db56a50c")
 			(effects
 				(font
 					(size 1.27 1.27)
