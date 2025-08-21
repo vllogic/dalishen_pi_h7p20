@@ -3769,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vllogic:L_NR3015"
+		(property "Footprint" "vllogic:L_NR2520xx"
 			(at 54.61 17.78 0)
 			(effects
 				(font
@@ -4245,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vllogic:L_NR3015"
+		(property "Footprint" "vllogic:L_NR2520xx"
 			(at 58.42 78.74 0)
 			(effects
 				(font
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vllogic:L_NR3015"
+		(property "Footprint" "vllogic:L_NR2520xx"
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -5178,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm"
+		(property "Footprint" "vllogic:QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm"
 			(at 63.5 53.34 0)
 			(effects
 				(font

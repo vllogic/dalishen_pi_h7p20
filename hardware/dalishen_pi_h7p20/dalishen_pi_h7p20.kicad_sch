@@ -8182,13 +8182,13 @@
 		)
 		(uuid "24ec3b26-237a-47dd-8338-71b9d6e6deb4")
 	)
-	(text "注：JP1短接后可对外输出3.3V。EZ-USB板不需要短接。"
+	(text "注：JP1短接后可对外输出3.3V。对接EZ-USB板时不要短接。"
 		(exclude_from_sim no)
 		(at 17.018 275.844 0)
 		(effects
 			(font
 				(face "仿宋")
-				(size 2.54 2.54)
+				(size 2.413 2.413)
 				(thickness 0.6)
 				(bold yes)
 			)
@@ -16635,7 +16635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "vllogic:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
 			(at 288.29 240.03 0)
 			(effects
 				(font
@@ -20746,7 +20746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "vllogic:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
 			(at 391.16 227.33 0)
 			(effects
 				(font
