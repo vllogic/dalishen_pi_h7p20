@@ -3042,16 +3042,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 50.8) (xy 171.45 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3cc8bb2-48cd-409b-95f2-a5f1079c6d9e")
-	)
-	(wire
-		(pts
 			(xy 213.36 81.28) (xy 229.87 81.28)
 		)
 		(stroke
@@ -3232,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 171.45 76.2)
+			(xy 171.45 50.8) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3360,16 +3350,6 @@
 		)
 		(uuid "2a62bb96-c65a-4e49-879c-8d65481a3d85")
 	)
-	(label "VCC_5V"
-		(at 57.15 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31984129-4c1a-45f8-aaff-38d3ee7e9cdf")
-	)
 	(label "VCC_3V3"
 		(at 24.13 87.63 0)
 		(effects
@@ -3389,6 +3369,16 @@
 			(justify left bottom)
 		)
 		(uuid "35159a06-ab34-433d-a1c0-16cb2d395d20")
+	)
+	(label "VCC_3V3"
+		(at 24.13 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40193791-d979-4b46-907a-c5627bd8544e")
 	)
 	(label "USB334x_CLK"
 		(at 213.36 66.04 0)
@@ -3420,26 +3410,6 @@
 		)
 		(uuid "472fe5c4-3c1d-459a-8d4d-b59c1486629e")
 	)
-	(label "VCC_5V"
-		(at 57.15 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5230f45d-d5ac-4e07-970e-36d62405ec57")
-	)
-	(label "VCC_5V"
-		(at 57.15 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5729d17f-0eb3-4ac0-a9ea-15d46d1bfc9c")
-	)
 	(label "CMP_REF_3"
 		(at 40.64 175.26 0)
 		(effects
@@ -3449,16 +3419,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d8cff94-ee19-4062-9f6b-95f3b6ad8404")
-	)
-	(label "VCC_5V"
-		(at 24.13 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67215142-0a59-4f46-87b5-399fcbde16ac")
 	)
 	(label "USB334x_D4"
 		(at 213.36 78.74 0)
@@ -3479,6 +3439,16 @@
 			(justify left bottom)
 		)
 		(uuid "7280063c-172a-4c7f-8a58-030c6337a401")
+	)
+	(label "VCC_3V3"
+		(at 57.15 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82a67821-8ab1-4b25-851b-5416bfb093f6")
 	)
 	(label "USB334x_D0"
 		(at 213.36 68.58 0)
@@ -3529,6 +3499,16 @@
 			(justify left bottom)
 		)
 		(uuid "981bcf6c-a5f9-4b93-af91-3d9014eed916")
+	)
+	(label "VCC_3V3"
+		(at 57.15 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b5711ec-f305-4721-9daf-72a9573bc1d2")
 	)
 	(label "USB334x_D6"
 		(at 213.36 83.82 0)
@@ -3639,6 +3619,16 @@
 			(justify left bottom)
 		)
 		(uuid "f39f5c7c-19ea-4c98-b6a6-5eb2459aaaa0")
+	)
+	(label "VCC_3V3"
+		(at 57.15 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5ecd99e-d6e8-4c7b-8595-046de3677022")
 	)
 	(label "USB334x_D3"
 		(at 213.36 76.2 0)
@@ -3968,7 +3958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 58.42 142.24 0)
 			(effects
 				(font
@@ -4320,7 +4310,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 142.24 0)
 			(effects
 				(font
@@ -4532,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 160.02 0)
 			(effects
 				(font
@@ -5198,6 +5188,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70690daf-2c1c-480a-8c52-40e67def96ce")
+		(property "Reference" "#PWR01"
+			(at 34.29 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.417 154.2542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef1320e6-6fb0-4a0e-9073-e4a5932f5047")
+		)
+		(instances
+			(project "usb_sniffer_h7p20"
+				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 101.6 113.03 0)
 		(unit 1)
@@ -5231,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 105.41 114.3 0)
 			(effects
 				(font
@@ -5353,7 +5407,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 107.95 0)
 			(effects
 				(font
@@ -5887,7 +5941,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 125.73 0)
 			(effects
 				(font
@@ -6084,6 +6138,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 34.29 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c87da6db-5017-4ef4-aa3d-88c5eb7c8241")
+		(property "Reference" "C1"
+			(at 37.211 144.8816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 37.211 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 33.3248 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b19610cb-dc6e-47b4-9544-0eabd40092f4")
+		)
+		(pin "2"
+			(uuid "41dc2410-038f-40ff-81dd-9968baa436b3")
+		)
+		(instances
+			(project "usb_sniffer_h7p20"
+				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM2903")
 		(at 59.69 104.14 0)
 		(unit 3)
@@ -6101,7 +6223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -6256,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -6324,75 +6446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d29fc587-c866-453d-bd1b-f318060de810")
-		(property "Reference" "R1"
-			(at 173.99 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.672 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dba6f8cf-4246-4c91-9b03-c8ad767ace2c")
-		)
-		(pin "1"
-			(uuid "3aa33c46-e11b-4916-9902-123eb2b1b59c")
-		)
-		(instances
-			(project "usb_sniffer_h7p20"
-				(path "/5a8287a8-9f7a-4e60-a3bf-19c1227b20fe/f5b7f82e-a1df-40b6-9f59-134d2c724739"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Comparator:LM2903")
 		(at 59.69 190.5 0)
 		(unit 2)
@@ -6409,7 +6462,7 @@
 				)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 62.23 194.31 0)
 			(effects
 				(font
@@ -6631,7 +6684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM2903A-VR"
+		(property "Value" "GSV332-MR"
 			(at 58.42 176.53 0)
 			(effects
 				(font
