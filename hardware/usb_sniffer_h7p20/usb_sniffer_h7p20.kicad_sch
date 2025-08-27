@@ -8903,10 +8903,6 @@
 		(uuid "76632c41-38fa-450e-9eea-a95c077fd41b")
 	)
 	(no_connect
-		(at 243.84 246.38)
-		(uuid "81500f88-c794-42bf-8f8d-440864ac61c3")
-	)
-	(no_connect
 		(at 238.76 246.38)
 		(uuid "87f0324d-343f-49bf-86bf-f668cc42af3f")
 	)
@@ -16674,6 +16670,16 @@
 		)
 		(uuid "eea81bc4-c116-4e1a-9517-0f3882699c93")
 	)
+	(label "VCC_5V"
+		(at 243.84 246.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0362ac9-1622-4c95-8e9c-bcdfe5bcc68d")
+	)
 	(label "VDD_CORE"
 		(at 281.94 189.23 0)
 		(effects
@@ -19546,7 +19552,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k,1%"
+		(property "Value" "4.7k,1%"
 			(at 132.08 59.69 90)
 			(effects
 				(font
@@ -20415,7 +20421,7 @@
 				)
 			)
 		)
-		(property "Value" "10k,1%"
+		(property "Value" "4.7k,1%"
 			(at 132.08 49.53 90)
 			(effects
 				(font
@@ -24498,7 +24504,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k,1%"
+		(property "Value" "10k,1%"
 			(at 132.08 54.61 90)
 			(effects
 				(font
