@@ -4288,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vllogic:USB-AF_YIJIAN"
+		(property "Footprint" "vllogic:USB_AF_SMT"
 			(at 105.41 114.3 0)
 			(effects
 				(font
@@ -4297,7 +4297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 105.41 114.3 0)
 			(effects
 				(font
