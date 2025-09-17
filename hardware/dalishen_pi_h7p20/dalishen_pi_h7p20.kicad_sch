@@ -7427,7 +7427,7 @@
 		(uuid 0ac59fbf-0719-4c57-878c-6ab5bf6eb617)
 	)
 	(rectangle
-		(start 15.24 203.2)
+		(start 106.68 203.2)
 		(end 157.48 281.94)
 		(stroke
 			(width 0.5)
@@ -7536,6 +7536,20 @@
 			(justify left bottom)
 		)
 		(uuid "e3527b58-b082-43c3-aeab-20d1630bb710")
+	)
+	(text "0.96寸 I2C OLED\n屏幕模块接口"
+		(exclude_from_sim no)
+		(at 108.585 220.345 0)
+		(effects
+			(font
+				(face "仿宋")
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcadeeba-4946-435b-af07-437c3b3fc87a")
 	)
 	(junction
 		(at 248.92 21.59)
@@ -9535,7 +9549,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 232.41) (xy 73.66 242.57)
+			(xy 128.27 237.49) (xy 128.27 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9575,7 +9589,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 232.41) (xy 78.74 242.57)
+			(xy 133.35 237.49) (xy 133.35 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10785,7 +10799,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 232.41) (xy 76.2 242.57)
+			(xy 130.81 237.49) (xy 130.81 247.65)
 		)
 		(stroke
 			(width 0)
@@ -11985,7 +11999,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 232.41) (xy 81.28 242.57)
+			(xy 135.89 237.49) (xy 135.89 247.65)
 		)
 		(stroke
 			(width 0)
@@ -13294,7 +13308,7 @@
 		(uuid "582b153e-ffd4-48e3-a6c3-82806c52b34c")
 	)
 	(label "OV{slash}TP_SDA"
-		(at 81.28 242.57 90)
+		(at 135.89 247.65 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13804,7 +13818,7 @@
 		(uuid "77bdf146-dcfc-4437-8875-90c0cdbdf998")
 	)
 	(label "OV{slash}TP_SCL"
-		(at 78.74 242.57 90)
+		(at 133.35 247.65 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13874,7 +13888,7 @@
 		(uuid "82428bb8-1cb9-4047-9502-aff7e0d94553")
 	)
 	(label "VCC_3V3"
-		(at 76.2 242.57 90)
+		(at 130.81 247.65 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14534,7 +14548,7 @@
 		(uuid "bf24812b-4179-49e8-867e-59ed4a60dbdc")
 	)
 	(label "GND"
-		(at 73.66 242.57 90)
+		(at 128.27 247.65 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20710,7 +20724,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 76.2 227.33 90)
+		(at 130.81 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20719,7 +20733,7 @@
 		(fields_autoplaced yes)
 		(uuid "a03e1fd0-a23f-425b-bbf7-1db6362dd7be")
 		(property "Reference" "J5"
-			(at 77.47 220.98 90)
+			(at 132.08 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,7 +20741,7 @@
 			)
 		)
 		(property "Value" "OLED_I2C_128x64"
-			(at 77.47 223.52 90)
+			(at 132.08 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20749,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 76.2 227.33 0)
+			(at 130.81 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20744,7 +20758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 227.33 0)
+			(at 130.81 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20753,7 +20767,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 76.2 227.33 0)
+			(at 130.81 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
