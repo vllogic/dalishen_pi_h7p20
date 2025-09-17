@@ -12853,7 +12853,7 @@
 		)
 		(uuid "3415fe5c-2437-451a-9d4b-67350e8f1075")
 	)
-	(label "USB334x_SP2_CLK"
+	(label "USB334x_SP2_C{slash}R"
 		(at 38.1 128.27 0)
 		(effects
 			(font
@@ -12973,7 +12973,7 @@
 		)
 		(uuid "3a75255e-39b8-49d0-8ef5-21c858d65d57")
 	)
-	(label "USB334x_SP1_CLK"
+	(label "USB334x_SP1_C{slash}R"
 		(at 38.1 69.85 0)
 		(effects
 			(font
@@ -14603,7 +14603,7 @@
 		)
 		(uuid "c3c38408-9ef0-468d-bd65-27a8063bba1f")
 	)
-	(label "USB334x_SP1_CLK"
+	(label "USB334x_SP1_C{slash}R"
 		(at 95.25 81.28 0)
 		(effects
 			(font
@@ -14623,7 +14623,7 @@
 		)
 		(uuid "c5d324b5-9187-4d78-bfde-af20d751d53a")
 	)
-	(label "USB334x_SP2_CLK"
+	(label "USB334x_SP2_C{slash}R"
 		(at 95.25 124.46 0)
 		(effects
 			(font
@@ -24539,7 +24539,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB334x_CLK" output
+		(pin "USB334x_C{slash}R" bidirectional
 			(at 38.1 69.85 0)
 			(uuid "58e4215b-55bc-443e-86ea-705d09ceca64")
 			(effects
@@ -24730,7 +24730,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB334x_CLK" output
+		(pin "USB334x_C{slash}R" bidirectional
 			(at 38.1 128.27 0)
 			(uuid "c1f1cde4-7e5a-421c-9bcc-9b67f661bd8d")
 			(effects
