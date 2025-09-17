@@ -3475,45 +3475,65 @@
 		)
 		(uuid "fe2affb6-c24d-41ee-8ffd-5b4a0934c78d")
 	)
-	(label "USB334x_NXT"
-		(at 213.36 93.98 0)
+	(label "USB334x_D0"
+		(at 213.36 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "35159a06-ab34-433d-a1c0-16cb2d395d20")
+		(uuid "07896f71-8a79-4e51-a530-2bb794f63679")
 	)
-	(label "USB334x_CLK"
-		(at 213.36 66.04 0)
+	(label "VCC_5V"
+		(at 31.75 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "42f9414b-cd03-41d7-aba5-8e90d48bc1c1")
+		(uuid "253875d9-6718-4455-a44a-765d3f228695")
 	)
-	(label "USB334x_STP"
-		(at 213.36 91.44 0)
+	(label "USB334x_D3"
+		(at 213.36 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "444831b7-edaa-42e4-beaf-588627a0fc9b")
+		(uuid "33e1a9fb-fc1f-405b-9000-a9b504c4d55e")
 	)
-	(label "USB20_D_N"
-		(at 109.22 115.57 0)
+	(label "VCC_3V3"
+		(at 31.75 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "472fe5c4-3c1d-459a-8d4d-b59c1486629e")
+		(uuid "345d2c1a-6f7a-4e66-ac43-9ef6df2e0e09")
+	)
+	(label "USB334x_DIR"
+		(at 213.36 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f5796ff-f6be-44fb-a908-444e075e2a23")
+	)
+	(label "USB334x_D2"
+		(at 213.36 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "767a3484-66a5-4142-96e2-7e7fcab6d123")
 	)
 	(label "USB334x_D4"
 		(at 213.36 78.74 0)
@@ -3523,17 +3543,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6b1a0a0c-4bb3-4cc1-aa56-9730fd2283ed")
+		(uuid "7c6b487f-3d62-4857-919f-c53e45148237")
 	)
-	(label "USB334x_D0"
-		(at 213.36 68.58 0)
+	(label "USB334x_D5"
+		(at 213.36 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "85088fa0-8efd-4518-a0f0-a34d77389d93")
+		(uuid "88b39759-ee47-42f5-9251-f16a7cc6fec1")
+	)
+	(label "USB334x_NXT"
+		(at 213.36 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a3e7407-d9d0-4454-bb40-449699a2c3e0")
 	)
 	(label "T_VBUS"
 		(at 109.22 107.95 0)
@@ -3553,7 +3583,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "981bcf6c-a5f9-4b93-af91-3d9014eed916")
+		(uuid "8d28bec6-cb14-4159-a5aa-18c66aec7edb")
 	)
 	(label "USB334x_D6"
 		(at 213.36 83.82 0)
@@ -3563,27 +3593,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a1e915d5-4563-406d-9501-20e5c98bd379")
-	)
-	(label "USB334x_DIR"
-		(at 213.36 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9643fe4-93e8-4703-968e-5aa8630dafc0")
-	)
-	(label "VCC_3V3"
-		(at 173.99 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2cb3e27-7e2b-4437-90e6-dc5e22ce9270")
+		(uuid "93539415-c76b-4e2a-808b-fdf1c987a2a2")
 	)
 	(label "USB334x_D7"
 		(at 213.36 86.36 0)
@@ -3593,37 +3603,47 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b5f9db2c-0657-4294-8735-0ae1340fe83f")
+		(uuid "a52c52a0-202b-42b5-a401-4dc70f0a7360")
 	)
-	(label "USB334x_D2"
-		(at 213.36 73.66 0)
+	(label "USB20_D_N"
+		(at 109.22 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c3d6fd34-6f89-4dcf-babc-b1b07a083fca")
+		(uuid "ba8e54cd-5ced-4927-8da3-45b3532b26cd")
 	)
-	(label "USB20_D_P"
-		(at 109.22 113.03 0)
+	(label "USB334x_STP"
+		(at 213.36 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d4fb4880-d5e8-40f4-af51-2103485b345c")
+		(uuid "c0a6fc69-a20c-459e-b196-8d53279b8753")
+	)
+	(label "USB334x_CLK"
+		(at 213.36 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3c4d7e6-1bba-4970-b7ec-8511d12a2e13")
 	)
 	(label "VCC_3V3"
-		(at 31.75 34.29 0)
+		(at 173.99 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e6acb870-6557-4578-8ab9-1113175ba27e")
+		(uuid "ca1dfb06-f7b0-4c3a-8cc1-0652d3fbf40b")
 	)
 	(label "VCC_5V"
 		(at 22.86 46.99 0)
@@ -3635,26 +3655,6 @@
 		)
 		(uuid "e7220552-87b3-44b7-be6c-8711260233c0")
 	)
-	(label "VCC_5V"
-		(at 31.75 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f18be1ba-72a2-4edb-8a36-f8ffa92f3395")
-	)
-	(label "USB334x_D5"
-		(at 213.36 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f39f5c7c-19ea-4c98-b6a6-5eb2459aaaa0")
-	)
 	(label "T_VBUS"
 		(at 43.18 49.53 0)
 		(effects
@@ -3665,158 +3665,15 @@
 		)
 		(uuid "f3fb3a50-4eb3-41c5-859d-19297fc4c1ee")
 	)
-	(label "USB334x_D3"
-		(at 213.36 76.2 0)
+	(label "USB20_D_P"
+		(at 109.22 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fb820fe1-9825-4080-a95a-70045fc264e9")
-	)
-	(hierarchical_label "USB334x_CLK"
-		(shape output)
-		(at 229.87 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00c23d44-d30e-4346-b3f9-f69c7968cbba")
-	)
-	(hierarchical_label "VCC_5V"
-		(shape output)
-		(at 31.75 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "144225e6-8266-4743-81a1-b2322a09ecb8")
-	)
-	(hierarchical_label "USB334x_D7"
-		(shape bidirectional)
-		(at 229.87 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "267c2fa6-1076-4d41-92a2-f6280734f2bb")
-	)
-	(hierarchical_label "USB334x_DIR"
-		(shape output)
-		(at 229.87 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c8df387-d56a-4fd3-9697-696d25f1f7c9")
-	)
-	(hierarchical_label "USB334x_STP"
-		(shape input)
-		(at 229.87 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3507be2e-fb5c-4970-b305-54792a8bcb88")
-	)
-	(hierarchical_label "USB334x_D2"
-		(shape bidirectional)
-		(at 229.87 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ccdc1e6-20ce-4a34-98a4-1569f78ca16a")
-	)
-	(hierarchical_label "USB334x_D4"
-		(shape bidirectional)
-		(at 229.87 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c8b1bc3-6a14-493b-9678-484cfb30e63e")
-	)
-	(hierarchical_label "USB334x_D6"
-		(shape bidirectional)
-		(at 229.87 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d1dbc09-8b61-48a1-a1ea-c7bf5f7011ed")
-	)
-	(hierarchical_label "USB334x_D3"
-		(shape bidirectional)
-		(at 229.87 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7558b08a-50c4-4612-b0aa-ac5cd9f21f40")
-	)
-	(hierarchical_label "VCC_3V3"
-		(shape input)
-		(at 31.75 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "961ff8f0-1318-4b76-ba7e-725b9b6cf5b6")
-	)
-	(hierarchical_label "USB334x_D1"
-		(shape bidirectional)
-		(at 229.87 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "965d5014-b743-4071-a7d6-5a0dd57fa725")
-	)
-	(hierarchical_label "USB334x_D5"
-		(shape bidirectional)
-		(at 229.87 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1b37a82-0ff1-4742-9535-312e8c1be0d4")
-	)
-	(hierarchical_label "USB334x_D0"
-		(shape bidirectional)
-		(at 229.87 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d5235180-f23d-48d9-a428-f70fcb6270ee")
+		(uuid "fbd32997-81a0-4b3a-8a12-cc150915c4c9")
 	)
 	(hierarchical_label "USB334x_NXT"
 		(shape output)
@@ -3827,7 +3684,150 @@
 			)
 			(justify left)
 		)
-		(uuid "edcd94a1-44e2-4f31-acba-be5c0d2492f3")
+		(uuid "046bd7fe-4343-4231-bce9-c77e5e01657c")
+	)
+	(hierarchical_label "USB334x_STP"
+		(shape input)
+		(at 229.87 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d9986b4-6321-465f-bcfb-99f61102fb3a")
+	)
+	(hierarchical_label "USB334x_D5"
+		(shape bidirectional)
+		(at 229.87 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11a0ba09-846e-4497-981b-82d7ffc43a83")
+	)
+	(hierarchical_label "USB334x_D6"
+		(shape bidirectional)
+		(at 229.87 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a5b1272-f760-4563-ab95-7eac82081a74")
+	)
+	(hierarchical_label "USB334x_D4"
+		(shape bidirectional)
+		(at 229.87 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "259090b2-8fea-4dee-837c-d0970fd2862e")
+	)
+	(hierarchical_label "USB334x_D0"
+		(shape bidirectional)
+		(at 229.87 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60978d8b-bdb3-46ff-9ad9-f25c78550ed6")
+	)
+	(hierarchical_label "USB334x_CLK"
+		(shape output)
+		(at 229.87 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62d90cac-f879-45fa-baf7-39c19adba482")
+	)
+	(hierarchical_label "USB334x_D7"
+		(shape bidirectional)
+		(at 229.87 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f3822e4-b56c-45db-ae82-fbcca86403f7")
+	)
+	(hierarchical_label "VCC_5V"
+		(shape output)
+		(at 31.75 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7a11c86-4121-4ba1-8caf-e2ea82e59ff1")
+	)
+	(hierarchical_label "USB334x_D3"
+		(shape bidirectional)
+		(at 229.87 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "baf9d50f-a94d-4e4b-a2e2-f00970e7d41b")
+	)
+	(hierarchical_label "USB334x_D1"
+		(shape bidirectional)
+		(at 229.87 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcde7503-a029-4258-b122-30dc6e6f005c")
+	)
+	(hierarchical_label "USB334x_DIR"
+		(shape output)
+		(at 229.87 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdd8b39e-fc5c-4c97-adfa-09dcbf6033ab")
+	)
+	(hierarchical_label "USB334x_D2"
+		(shape bidirectional)
+		(at 229.87 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd104d7b-94ff-4a0d-a381-5eb3904df4d1")
+	)
+	(hierarchical_label "VCC_3V3"
+		(shape input)
+		(at 31.75 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df9fa85e-49da-4832-9e56-4b7d97c0ce84")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3896,35 +3896,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 177.8 59.69 0)
+		(lib_id "power:GND")
+		(at 198.12 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1229fe15-815f-46de-b32d-b742f29b4589")
-		(property "Reference" "R90"
-			(at 180.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k,1%"
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.022 59.69 90)
+		(uuid "1835edc7-6e4e-49ec-9d09-b698dde43deb")
+		(property "Reference" "#PWR032"
+			(at 198.12 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,8 +3914,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 177.8 59.69 0)
+		(property "Value" "GND"
+			(at 198.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,58 +3941,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 59.69 0)
+			(at 198.12 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "2"
-			(uuid "b7fbbbf6-2852-47fa-9fc3-18ac7935da8e")
-		)
 		(pin "1"
-			(uuid "990982e2-3580-4a44-877a-4692acdbbf29")
+			(uuid "82d2b56d-0315-4f9b-be1c-2ab8253149f4")
 		)
 		(instances
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R90")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 172.72 97.79 0)
+		(lib_id "power:GND")
+		(at 234.95 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "218a02be-e36c-4981-943d-a140ec85ac90")
-		(property "Reference" "R89"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8.06k"
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.942 97.79 90)
+		(uuid "1e754f74-38a0-4d53-a50a-295f02f7500a")
+		(property "Reference" "#PWR034"
+			(at 234.95 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,8 +3978,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 172.72 97.79 0)
+		(property "Value" "GND"
+			(at 235.077 53.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,23 +4005,88 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 97.79 0)
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "2"
-			(uuid "c824c103-1028-4319-9897-82376c18c71a")
-		)
 		(pin "1"
-			(uuid "6f243079-e2e6-48d7-96d7-216c5ef04fcf")
+			(uuid "fdb9b8e4-b90f-4c3c-a57b-17e27e30acb6")
 		)
 		(instances
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R89")
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "232c51e3-44c4-4d57-b14e-e7c4bd705323")
+		(property "Reference" "C49"
+			(at 221.361 44.5516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 221.361 46.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 217.4748 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a565a2fe-c4b7-482d-89d6-3fe0b525cb48")
+		)
+		(pin "2"
+			(uuid "d65d75c3-ec01-4728-b003-0b9a4c748f0c")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4114,620 +4173,13 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "284904c6-64a5-48f3-83ec-3445d968d3f0")
-		(property "Reference" "#PWR029"
-			(at 152.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.527 56.4642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b951575-4180-45ee-ac62-bd3e9ddefca0")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d201680-68ec-4f17-adfa-7b55e66f0b74")
-		(property "Reference" "C50"
-			(at 237.871 44.5516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 237.871 46.863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 233.9848 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f562382a-9a36-442f-b4af-12d631cbbc25")
-		)
-		(pin "2"
-			(uuid "310555dc-c963-4a01-8cd0-a9ff55ea7568")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32148c83-39d1-4062-8fa4-8482f00a80e5")
-		(property "Reference" "#PWR025"
-			(at 129.54 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf419990-114a-48a5-8d8f-7e847b842de8")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4006654f-7bd1-492c-a777-b89f4c681097")
-		(property "Reference" "#PWR030"
-			(at 163.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.957 56.4642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "844c2632-e439-4a0c-898f-a916c55fdb1c")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4124cb93-2135-4678-8801-03b35207adca")
-		(property "Reference" "R4"
-			(at 173.99 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.672 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b8e082dd-a4e3-467b-8656-808944aa1f6d")
-		)
-		(pin "1"
-			(uuid "18f5c235-28d5-4b45-aec1-eb69146cf734")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal_GND24_Small")
-		(at 147.32 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a2c5c37-6bca-42d2-8328-c090a15586b6")
-		(property "Reference" "Y1"
-			(at 142.875 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "26M"
-			(at 149.225 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "vllogic:OSC_2016"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6aa9d000-bd52-4d16-bc7f-f1e394298db2")
-		)
-		(pin "2"
-			(uuid "3517c261-2503-42da-8807-94a23837df0e")
-		)
-		(pin "3"
-			(uuid "43398258-7373-423b-b91c-d0d6fbf99ad2")
-		)
-		(pin "4"
-			(uuid "a5e3d21f-84c6-42ee-ba27-6c8bb3f7ec7a")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 162.56 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5127d27c-f19f-4d3e-af84-385078e61216")
-		(property "Reference" "R79"
-			(at 162.56 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k,1%"
-			(at 162.56 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "310841a7-c6d9-4649-abd7-0a590dc3c56d")
-		)
-		(pin "2"
-			(uuid "ba7ed57e-f023-4f42-b941-ce8e4078f82f")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c0ef0ea-5d47-4704-b2eb-0c28cef62877")
-		(property "Reference" "R77"
-			(at 139.7 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.382 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3887cca7-768b-412c-936a-e5eaf5ff5c7d")
-		)
-		(pin "1"
-			(uuid "0583c6ae-3e5e-4bc7-ba3c-220e0f42f6ba")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5dff1574-2073-4dc1-aaa4-6ff00ec6e386")
-		(property "Reference" "C15"
-			(at 166.751 47.0916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 166.751 49.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 162.8648 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f420571-8baf-46df-9c1c-819dcecc0808")
-		)
-		(pin "2"
-			(uuid "496048ef-e1b7-4f55-ae71-3fd802329d88")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 218.44 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6080229a-eb7f-4b7c-b47f-18ef26b47eb2")
+		(uuid "29f95b25-fb8a-4175-a255-e7f9fef6e9e9")
 		(property "Reference" "#PWR033"
 			(at 218.44 55.88 0)
 			(effects
@@ -4784,275 +4236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "634cdf86-d5f4-4611-b157-563b85894e24")
-		(property "Reference" "#PWR024"
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dc9be36-b3ce-48d8-ad76-9842e5462482")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6da43e79-5615-45bf-997b-cd90b9f2d7bc")
-		(property "Reference" "#PWR026"
-			(at 137.16 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ce201a6-79f4-4f47-ad4d-77bb17cdeb2d")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_A")
-		(at 101.6 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7152437d-b663-4f0c-819b-2cf4e920248c")
-		(property "Reference" "J3"
-			(at 101.6 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_A"
-			(at 106.68 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "vllogic:USB_AF_SMT"
-			(at 105.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6eecb2bb-59bb-420b-be5a-e32206c3c032")
-		)
-		(pin "3"
-			(uuid "8649b0ae-65f7-4998-b342-c316b2f0a607")
-		)
-		(pin "2"
-			(uuid "458213b0-98dd-4d37-8ccf-9678a78159d0")
-		)
-		(pin "5"
-			(uuid "7798d488-5441-4185-b6d6-18f93ac1fb23")
-		)
-		(pin "4"
-			(uuid "9434f011-f830-4f52-a712-6aa8bdf7ca9b")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8703ad89-4b19-4220-999f-0dd07fef841b")
-		(property "Reference" "#PWR034"
-			(at 234.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 235.077 53.9242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdb9b8e4-b90f-4c3c-a57b-17e27e30acb6")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_USB:USB3343")
 		(at 198.12 76.2 0)
 		(unit 1)
@@ -5060,7 +4243,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8e9e9726-41ec-4994-a432-0bbbeba076e9")
+		(uuid "3121970b-388c-427c-ad12-ea014539a286")
 		(property "Reference" "U20"
 			(at 213.36 58.42 0)
 			(effects
@@ -5190,82 +4373,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 99.06 0)
+		(lib_id "Device:Crystal_GND24_Small")
+		(at 147.32 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96255340-55f7-45f6-9981-2fc7fecde113")
-		(property "Reference" "#PWR032"
-			(at 198.12 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82d2b56d-0315-4f9b-be1c-2ab8253149f4")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c63ed5d-3b46-43c3-83d1-b1dfd47863fd")
-		(property "Reference" "R78"
-			(at 157.48 83.82 0)
+		(uuid "4a2c5c37-6bca-42d2-8328-c090a15586b6")
+		(property "Reference" "Y1"
+			(at 142.875 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,8 +4390,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
-			(at 157.48 86.36 0)
+		(property "Value" "26M"
+			(at 149.225 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,8 +4399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 153.162 85.09 90)
+		(property "Footprint" "vllogic:OSC_2016"
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 85.09 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,143 +4418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "343e127c-60fe-420f-8087-11dff6c85abb")
-		)
-		(pin "1"
-			(uuid "29a24898-a9c1-4e86-b55b-979dc1da6496")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e2a7206-6a5b-4982-8926-9d78a17c9eb5")
-		(property "Reference" "R76"
-			(at 130.81 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127.762 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "941dd242-3e1f-4397-a51f-6271b429f4f9")
-		)
-		(pin "1"
-			(uuid "3ef69a8f-5d90-4cad-a842-1081a8050baa")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a283d917-4296-4f69-a9d2-f2e803299555")
-		(property "Reference" "C12"
-			(at 142.621 97.8916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.3pF"
-			(at 142.621 100.203 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "vllogic:C_0402_6mil"
-			(at 138.7348 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 99.06 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,149 +4426,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "4223bd8c-86f0-43c5-ac79-b6fc04e5fc5e")
+			(uuid "6aa9d000-bd52-4d16-bc7f-f1e394298db2")
 		)
 		(pin "2"
-			(uuid "03154db7-bb0c-4daa-94f8-1a89f09efdfd")
+			(uuid "3517c261-2503-42da-8807-94a23837df0e")
+		)
+		(pin "3"
+			(uuid "43398258-7373-423b-b91c-d0d6fbf99ad2")
+		)
+		(pin "4"
+			(uuid "a5e3d21f-84c6-42ee-ba27-6c8bb3f7ec7a")
 		)
 		(instances
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 58.42 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a53b6e49-6be4-44fa-8519-2049fad100c8")
-		(property "Reference" "D5"
-			(at 58.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_RED"
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d741344-b320-49f7-bb45-e4495299030f")
-		)
-		(pin "2"
-			(uuid "c939221d-ef0e-4134-b653-5d09eae629e1")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 152.4 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a81d2426-1ab3-4163-ba26-5e9a10000084")
-		(property "Reference" "C13"
-			(at 155.321 47.0916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 155.321 49.403 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 151.4348 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec5f71d7-cfde-4e46-9b9b-5a60fb5b3b43")
-		)
-		(pin "2"
-			(uuid "5bc54abd-9dcf-464b-8cb2-3dc314fb9b4e")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C13")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -5602,7 +4455,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a9cd087a-a228-49a3-ae56-e7cc67e31d6c")
+		(uuid "55ba9577-08ef-4a9b-880c-7c03c715c278")
 		(property "Reference" "J2"
 			(at 101.6 45.72 0)
 			(effects
@@ -5706,6 +4559,1217 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56c2aa1f-8ec0-47c8-99d8-3cb5abf9db67")
+		(property "Reference" "R76"
+			(at 130.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127.762 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "941dd242-3e1f-4397-a51f-6271b429f4f9")
+		)
+		(pin "1"
+			(uuid "3ef69a8f-5d90-4cad-a842-1081a8050baa")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a85a0d-d68f-449f-b07a-f038c1ad959e")
+		(property "Reference" "#PWR029"
+			(at 152.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.527 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b951575-4180-45ee-ac62-bd3e9ddefca0")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "607c4ba1-fe51-4a81-a1bb-685f34d3bb18")
+		(property "Reference" "C15"
+			(at 166.751 47.0916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 166.751 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.8648 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f420571-8baf-46df-9c1c-819dcecc0808")
+		)
+		(pin "2"
+			(uuid "496048ef-e1b7-4f55-ae71-3fd802329d88")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "634cdf86-d5f4-4611-b157-563b85894e24")
+		(property "Reference" "#PWR024"
+			(at 101.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dc9be36-b3ce-48d8-ad76-9842e5462482")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "642b5650-5b03-4bdc-beb6-ae5a0fb13ea9")
+		(property "Reference" "R4"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 173.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169.672 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8e082dd-a4e3-467b-8656-808944aa1f6d")
+		)
+		(pin "1"
+			(uuid "18f5c235-28d5-4b45-aec1-eb69146cf734")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b85df6-284f-4539-806e-b9f621235679")
+		(property "Reference" "#PWR026"
+			(at 137.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ce201a6-79f4-4f47-ad4d-77bb17cdeb2d")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aef7901-4a50-4b2d-82f1-0345c96f6c41")
+		(property "Reference" "#PWR025"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf419990-114a-48a5-8d8f-7e847b842de8")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e12494e-b6c9-4c69-883c-fbc709e0c1e4")
+		(property "Reference" "#PWR023"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62776d47-5020-4c2e-bc4e-2027648f6d26")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 101.6 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7152437d-b663-4f0c-819b-2cf4e920248c")
+		(property "Reference" "J3"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "vllogic:USB_AF_SMT"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6eecb2bb-59bb-420b-be5a-e32206c3c032")
+		)
+		(pin "3"
+			(uuid "8649b0ae-65f7-4998-b342-c316b2f0a607")
+		)
+		(pin "2"
+			(uuid "458213b0-98dd-4d37-8ccf-9678a78159d0")
+		)
+		(pin "5"
+			(uuid "7798d488-5441-4185-b6d6-18f93ac1fb23")
+		)
+		(pin "4"
+			(uuid "9434f011-f830-4f52-a712-6aa8bdf7ca9b")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740bcbed-3af6-4075-bd5a-e8cd76b68d1f")
+		(property "Reference" "R77"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 135.382 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3887cca7-768b-412c-936a-e5eaf5ff5c7d")
+		)
+		(pin "1"
+			(uuid "0583c6ae-3e5e-4bc7-ba3c-220e0f42f6ba")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 234.95 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f2b401-acf4-42ec-ba79-f1a8d52ca313")
+		(property "Reference" "C50"
+			(at 237.871 44.5516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 237.871 46.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 233.9848 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f562382a-9a36-442f-b4af-12d631cbbc25")
+		)
+		(pin "2"
+			(uuid "310555dc-c963-4a01-8cd0-a9ff55ea7568")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b33ee6e-b61e-4990-a765-20355272e765")
+		(property "Reference" "R79"
+			(at 162.56 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k,1%"
+			(at 162.56 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "310841a7-c6d9-4649-abd7-0a590dc3c56d")
+		)
+		(pin "2"
+			(uuid "ba7ed57e-f023-4f42-b941-ce8e4078f82f")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e8f89d1-8fed-4aff-a74d-ae128469ef6d")
+		(property "Reference" "#PWR030"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.957 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "844c2632-e439-4a0c-898f-a916c55fdb1c")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a6f369-bfd0-48e6-a733-44fdcb670f00")
+		(property "Reference" "R90"
+			(at 180.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k,1%"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 176.022 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7fbbbf6-2852-47fa-9fc3-18ac7935da8e")
+		)
+		(pin "1"
+			(uuid "990982e2-3580-4a44-877a-4692acdbbf29")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c63ed5d-3b46-43c3-83d1-b1dfd47863fd")
+		(property "Reference" "R78"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 153.162 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "343e127c-60fe-420f-8087-11dff6c85abb")
+		)
+		(pin "1"
+			(uuid "29a24898-a9c1-4e86-b55b-979dc1da6496")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a283d917-4296-4f69-a9d2-f2e803299555")
+		(property "Reference" "C12"
+			(at 142.621 97.8916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.3pF"
+			(at 142.621 100.203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "vllogic:C_0402_6mil"
+			(at 138.7348 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4223bd8c-86f0-43c5-ac79-b6fc04e5fc5e")
+		)
+		(pin "2"
+			(uuid "03154db7-bb0c-4daa-94f8-1a89f09efdfd")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a38a5ce0-c46c-4c6e-b38d-ece0ac2ba755")
+		(property "Reference" "C13"
+			(at 155.321 47.0916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 155.321 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.4348 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec5f71d7-cfde-4e46-9b9b-5a60fb5b3b43")
+		)
+		(pin "2"
+			(uuid "5bc54abd-9dcf-464b-8cb2-3dc314fb9b4e")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 58.42 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a53b6e49-6be4-44fa-8519-2049fad100c8")
+		(property "Reference" "D5"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RED"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d741344-b320-49f7-bb45-e4495299030f")
+		)
+		(pin "2"
+			(uuid "c939221d-ef0e-4134-b653-5d09eae629e1")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 102.87 0)
 		(unit 1)
@@ -5770,99 +5834,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 172.72 101.6 0)
+		(lib_id "Device:R")
+		(at 172.72 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b39d87f3-1706-415e-b33d-50341182db4d")
-		(property "Reference" "#PWR031"
-			(at 172.72 107.95 0)
+		(uuid "d923d77c-8dd7-47e6-88a9-1fbea43ac436")
+		(property "Reference" "R89"
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 172.72 106.68 0)
+		(property "Value" "8.06k"
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d97519d8-6320-42ff-bee9-177060ce420f")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 218.44 45.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da731622-18c2-4ecd-b4a4-41b07f947458")
-		(property "Reference" "C49"
-			(at 221.361 44.5516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 221.361 46.863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 217.4748 41.91 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 170.942 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 45.72 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,23 +5880,23 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 45.72 0)
+			(at 172.72 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "a565a2fe-c4b7-482d-89d6-3fe0b525cb48")
-		)
 		(pin "2"
-			(uuid "d65d75c3-ec01-4728-b003-0b9a4c748f0c")
+			(uuid "c824c103-1028-4319-9897-82376c18c71a")
+		)
+		(pin "1"
+			(uuid "6f243079-e2e6-48d7-96d7-216c5ef04fcf")
 		)
 		(instances
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "C49")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -5967,6 +5967,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ab65e9-1095-4c14-aa24-10a70ecd36a3")
+		(property "Reference" "#PWR031"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d97519d8-6320-42ff-bee9-177060ce420f")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 99.06 180)
 		(unit 1)
@@ -6029,71 +6094,6 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f477a255-789d-409b-85fa-656c759e26d2")
-		(property "Reference" "#PWR023"
-			(at 101.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62776d47-5020-4c2e-bc4e-2027648f6d26")
-		)
-		(instances
-			(project "dalishen_pi_h7p20"
-				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a/c2e39904-e110-4fb2-9a78-c219110dbd62"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)

@@ -3824,6 +3824,86 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:W25Q32JVZP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8065,16 +8145,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 38.1 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e142723-e23c-4bff-bcf3-94def834f3c2")
-	)
-	(wire
-		(pts
 			(xy 322.58 76.2) (xy 326.39 76.2)
 		)
 		(stroke
@@ -8452,6 +8522,16 @@
 			(type default)
 		)
 		(uuid "1c55e1c4-280f-4082-96cf-a5b5fbeab45c")
+	)
+	(wire
+		(pts
+			(xy 45.72 102.87) (xy 63.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5be5b5-47d5-4108-9834-30a48284e1b4")
 	)
 	(wire
 		(pts
@@ -9532,6 +9612,16 @@
 			(type default)
 		)
 		(uuid "557ba53f-a73c-467b-8d4f-05dd1cc42b40")
+	)
+	(wire
+		(pts
+			(xy 45.72 161.29) (xy 63.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557df812-1304-42fa-bded-37c7c82f88b3")
 	)
 	(wire
 		(pts
@@ -11282,16 +11372,6 @@
 			(type default)
 		)
 		(uuid "cc60af4c-fba9-4997-8ab4-dbd8599acadb")
-	)
-	(wire
-		(pts
-			(xy 54.61 161.29) (xy 38.1 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf35cdf-3f69-4464-94bc-458983fade45")
 	)
 	(wire
 		(pts
@@ -13094,7 +13174,7 @@
 		(uuid "4e035983-d2e4-4ac8-ad0a-93c3cefa6a37")
 	)
 	(label "USB334x_SPx_26M"
-		(at 38.1 161.29 0)
+		(at 45.72 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14223,16 +14303,6 @@
 		)
 		(uuid "a6f68465-eeb9-4482-9973-be3b04b7e3a9")
 	)
-	(label "USB334x_SPx_26M"
-		(at 38.1 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a736d237-4d2d-4d29-87ae-8272b778676e")
-	)
 	(label "USB334x_SP2_D5"
 		(at 38.1 143.51 0)
 		(effects
@@ -14782,6 +14852,16 @@
 			(justify left bottom)
 		)
 		(uuid "df080e32-5264-4316-8c75-8a1246e72853")
+	)
+	(label "USB334x_SPx_26M"
+		(at 45.72 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df21f3ba-df6b-4a7a-803a-6d78528a4e4c")
 	)
 	(label "KEY0"
 		(at 264.16 78.74 0)
@@ -18443,6 +18523,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 31.75 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b5b219-395e-452f-b8bd-5288fcf2f69d")
+		(property "Reference" "FID3"
+			(at 34.29 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 34.29 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 31.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 31.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 40.64 29.21 0)
 		(mirror y)
@@ -19566,6 +19710,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8917c6c8-b2ba-4153-9c65-a2cdf581ff10")
+		(property "Reference" "R24"
+			(at 41.91 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 41.91 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.91 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e8eacad-f475-4174-8534-b627ecfca8ba")
+		)
+		(pin "2"
+			(uuid "86fdfb46-f049-4ce6-a22b-f91e2372fc79")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 279.4 83.82 0)
 		(unit 1)
@@ -20524,7 +20734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 76.2 227.33 0)
 			(effects
 				(font
@@ -20700,6 +20910,72 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a50536ae-a80c-4dcf-801e-d9a12837e5e7")
+		(property "Reference" "R10"
+			(at 41.91 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 41.91 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 41.91 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "335621ad-5eca-47ad-900b-e742d46bd32e")
+		)
+		(pin "2"
+			(uuid "fa368e8c-e00b-42f8-bd19-8e8435ebf1ba")
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -21099,6 +21375,70 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 19.05 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad98e2d7-f202-436b-8255-7cf43317d0e9")
+		(property "Reference" "FID2"
+			(at 21.59 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 21.59 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 19.05 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dalishen_pi_h7p20"
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -21536,7 +21876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 212.09 269.24 0)
 			(effects
 				(font
@@ -22854,6 +23194,70 @@
 			(project "dalishen_pi_h7p20"
 				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 31.75 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ee8727-6074-4f39-a345-cc862010b413")
+		(property "Reference" "FID1"
+			(at 34.29 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 34.29 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 31.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 31.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/221176f3-b6da-4f04-afa6-f8c6dd49907a"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
