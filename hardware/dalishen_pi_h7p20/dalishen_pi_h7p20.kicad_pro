@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 1.4732,
+          "height": 1.8288,
+          "width": 1.8288
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.1524
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -612,26 +612,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "描述",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "位号"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -686,7 +674,7 @@
   "sheets": [
     [
       "221176f3-b6da-4f04-afa6-f8c6dd49907a",
-      "Root"
+      ""
     ],
     [
       "c2e39904-e110-4fb2-9a78-c219110dbd62",
@@ -701,16 +689,8 @@
       "YT8531C"
     ],
     [
-      "904b7fed-0faa-4294-9b84-cad3aa7e6c05",
-      "USB334x_SP1"
-    ],
-    [
       "71e8536c-1311-4586-a8f9-5b6b2934d7dd",
       "ET3036C_CJ3439KDW"
-    ],
-    [
-      "c2aa1832-0dff-4f01-98a8-0a8751ca7a00",
-      "USB334x_SP2"
     ]
   ],
   "text_variables": {}
