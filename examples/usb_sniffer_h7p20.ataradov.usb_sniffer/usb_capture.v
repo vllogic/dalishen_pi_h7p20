@@ -40,6 +40,10 @@ localparam
   USB_SPEED_AUTO    = 2'b11,
   USB_SPEED_UNKNOWN = 2'b11;
 
+wire [1:0] utmi_linestate_w;
+wire [1:0] phy_dp_w = {utmi_linestate_w[0], utmi_linestate_w[0]};
+wire [1:0] phy_dm_w = {utmi_linestate_w[1], utmi_linestate_w[1]};
+
 //-----------------------------------------------------------------------------
 reg utmi_rx_active_r = 1'b0;
 
@@ -57,14 +61,14 @@ wire [1:0] speed_detect_w;
 
 speed_detect speed_detect_inst (
   .clk_i       (usb_clk_i),
-  .dm_i        (usb_dm_i),
-  .dp_i        (usb_dp_i),
+  .dm_i        (phy_dm_w),
+  .dp_i        (phy_dp_w),
   .vbus_i      (utmi_vbus_w[1]),
   .rx_active_i (utmi_rx_active_r),
   .speed_o     (speed_detect_w)
 );
 
-wire [1:0] auto_speed_w = (speed_detect_w == USB_SPEED_UNKNOWN) ? USB_SPEED_HS : speed_detect_w;
+wire [1:0] auto_speed_w = (speed_detect_w == USB_SPEED_UNKNOWN) ? USB_SPEED_FS : speed_detect_w;
 wire [1:0] speed_w = (ctrl_speed_i == USB_SPEED_AUTO) ? auto_speed_w : ctrl_speed_i;
 
 wire [1:0] utmi_xcvrselect_w =
@@ -99,7 +103,7 @@ usb_phy usb_phy_inst (
   .utmi_opmode_i     (2'b01),
   .utmi_dppulldown_i (1'b0),
   .utmi_dmpulldown_i (1'b0),
-  .utmi_linestate_o  (),
+  .utmi_linestate_o  (utmi_linestate_w),
   .utmi_vbus_o       (utmi_vbus_w)
 );
 
@@ -188,8 +192,8 @@ reg dp_r;
 reg dm_r;
 
 always @(posedge usb_clk_i) begin
-  dp_r <= dp_r ? usb_dp_i[1] : (usb_dp_i == 2'd3);
-  dm_r <= dm_r ? usb_dm_i[1] : (usb_dm_i == 2'd3);
+  dp_r <= dp_r ? phy_dp_w[1] : (phy_dp_w == 2'd3);
+  dm_r <= dm_r ? phy_dm_w[1] : (phy_dm_w == 2'd3);
 end
 
 //-----------------------------------------------------------------------------
@@ -303,7 +307,7 @@ end
 reg [3:0] ls_r;
 reg [5:0] ls_filter_r;
 
-wire [3:0] ls_w = { usb_dm_i, usb_dp_i };
+wire [3:0] ls_w = { phy_dm_w, phy_dp_w };
 
 wire ls_stable_w  = (ls_w == ls_r);
 wire ls_changed_w = (ls_filter_r == 6'd60); // 1 us

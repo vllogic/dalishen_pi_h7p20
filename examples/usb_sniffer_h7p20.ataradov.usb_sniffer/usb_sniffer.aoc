@@ -22,7 +22,7 @@
 		<IO signal_name="fd_o_5_" pad_name="C19R81_PAD" location="IO6_7" pin_no="19" inst_name="io_fd_o_5__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_6_" pad_name="C16R81_PAD" location="IO9_7" pin_no="20" inst_name="io_fd_o_6__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_7_" pad_name="C15R81_PAD" location="IO10_7" pin_no="21" inst_name="io_fd_o_7__inst" direction="output" operation_mode="normal"/>
-		<IO signal_name="fd_o_8_" pad_name="C13R0_PAD" location="IO13_CLK6_4" pin_no="74" inst_name="io_fd_o_8__inst" direction="output" operation_mode="normal"/>
+		<IO signal_name="fd_o_8_" pad_name="C13R0_PAD" location="IO13_GCLK_4" pin_no="74" inst_name="io_fd_o_8__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_9_" pad_name="C15R0_PAD" location="IO15_4" pin_no="75" inst_name="io_fd_o_9__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_10_" pad_name="C16R0_PAD" location="IO16_4" pin_no="76" inst_name="io_fd_o_10__inst" direction="output" operation_mode="normal"/>
 		<IO signal_name="fd_o_11_" pad_name="C19R0_PAD" location="IO19_4" pin_no="77" inst_name="io_fd_o_11__inst" direction="output" operation_mode="normal"/>
