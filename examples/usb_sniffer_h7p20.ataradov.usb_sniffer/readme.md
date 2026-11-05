@@ -4,7 +4,8 @@ FPGA logic for the USB Sniffer 2, ported from
 [ataradov/usb-sniffer](https://github.com/ataradov/usb-sniffer) to the
 HME H7P20N0L128-M3H1 device.
 
-* License: **BSD-3-Clause** (see the SPDX headers in the Verilog sources).
+* License: **BSD-3-Clause**, see [LICENSE](./LICENSE) and the SPDX headers in
+  the Verilog sources.
 * Toolchain: Hercules Fuxi.
 * Project files: `usb_sniffer.hpr`, `usb_sniffer.aoc`.
 * Top module: `usb_sniffer`.

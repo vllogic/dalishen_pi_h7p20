@@ -48,3 +48,24 @@
 
 # 七、交流群
 * QQ群：635683631
+
+# VIII. License
+
+Unless a file or directory contains its own license file or license notice,
+the contents of this repository are licensed under the GNU General Public
+License v3.0 (GPLv3). See [LICENSE](./LICENSE).
+
+Component licenses:
+
+* `hardware/usb_sniffer_2/`: **GPLv3**. See `hardware/usb_sniffer_2/LICENSE`.
+* `examples/usb_sniffer_h7p20.ataradov.usb_sniffer/`: **BSD-3-Clause**.
+  See the `LICENSE` file in that directory. Ported from
+  [ataradov/usb-sniffer](https://github.com/ataradov/usb-sniffer).
+* `examples/dalishen_pi_h7p20.ultraembedded.core_usb_cdc/`: **LGPL-2.1**.
+  See the source file headers and `examples/readme.md`.
+* Other ports under `examples/` retain their original licenses as listed in
+  [`examples/readme.md`](./examples/readme.md).
+
+The USB Sniffer 2 device firmware and host tool are kept in a separate
+repository and are licensed under **BSD-3-Clause**:
+<https://github.com/vllogic/ataradov.usb-sniffer>

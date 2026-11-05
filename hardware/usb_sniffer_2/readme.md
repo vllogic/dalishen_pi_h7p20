@@ -24,7 +24,7 @@ This device uses USB PID `1209:6688` when the firmware is running.
 * Host tool `usb_sniffer`: <https://github.com/vllogic/ataradov.usb-sniffer/tree/main/software>
   * License: **BSD-3-Clause**.
 * FPGA logic: <https://github.com/vllogic/dalishen_pi_h7p20/tree/main/examples/usb_sniffer_h7p20.ataradov.usb_sniffer>
-  * License: **BSD-3-Clause** (SPDX headers in the Verilog sources).
+  * License: **BSD-3-Clause** (see the `LICENSE` file in that directory).
   * Toolchain: Hercules Fuxi. Project files: `usb_sniffer.hpr`, `usb_sniffer.aoc`.
 
 The firmware and host tool are a fork of the open-source project
