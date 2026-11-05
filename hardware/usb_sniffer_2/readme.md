@@ -11,7 +11,26 @@ ___
 2. [WCH CH32H417WEU6](https://www.wch-ic.com/products/CH32H417.html)
 3. [Microchip USB3343-CP-TR](https://www.microchip.com/en-us/product/usb3343)
 # III. Schematic
-* [Full PDF](https://www.google.com/search?q=./usb_sniffer_2.pdf)
+* [Full PDF](./usb_sniffer_2.pdf)
+
+# IV. Software, Firmware and Licenses
+
+This device uses USB PID `1209:6688` when the firmware is running.
+
+* Hardware (KiCad schematic and PCB, this directory): **GPLv3**. See [LICENSE](./LICENSE).
+* FX2LP firmware: <https://github.com/vllogic/ataradov.usb-sniffer/tree/main/firmware>
+  * License: **BSD-3-Clause**.
+  * Build: open-source SDCC compiler. See `firmware/Makefile` in the firmware repository.
+* Host tool `usb_sniffer`: <https://github.com/vllogic/ataradov.usb-sniffer/tree/main/software>
+  * License: **BSD-3-Clause**.
+* FPGA logic: <https://github.com/vllogic/dalishen_pi_h7p20/tree/main/examples/usb_sniffer_h7p20.ataradov.usb_sniffer>
+  * License: **BSD-3-Clause** (SPDX headers in the Verilog sources).
+  * Toolchain: Hercules Fuxi. Project files: `usb_sniffer.hpr`, `usb_sniffer.aoc`.
+
+The firmware and host tool are a fork of the open-source project
+[ataradov/usb-sniffer](https://github.com/ataradov/usb-sniffer). All hardware,
+firmware, host software and FPGA logic listed above are open source.
+
 ___
 # 中文
 ## 一、简介
